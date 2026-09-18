@@ -31,18 +31,22 @@ This repository focuses on the carrier layer: motion, embedded electronics, loca
 
 ```mermaid
 flowchart LR
-    B[1S LiPo / external power] --> MB[MB-R2.1\nESP32-WROOM-32UE mainboard]
-    MB --> MDI[MDI-R2.0\nTC78H651 + BNO086]
-    MDI --> LM[Left DC gearmotor]
-    MDI --> RM[Right DC gearmotor]
-    MB --> OFS[OFS-R2.1.1\nPAW3395 optical-flow board]
-    MB --> ENC[ENC-R1.0\nMA730 wheel encoder board(s)]
-    OFS --> REL[Relative tabletop motion]
-    ENC --> WHEEL[Wheel angle / odometry]
-    MDI --> IMU[Inertial orientation / motion]
-    CAM[Overhead camera + fiducials\nplanned system layer] --> HOST[Host perception + experiment software\nplanned]
+    B["1S LiPo / external power"] --> MB["MB-R2.1<br/>ESP32-WROOM-32UE mainboard"]
+    MB --> MDI["MDI-R2.0<br/>TC78H651 + BNO086"]
+    MDI --> LM["Left DC gearmotor"]
+    MDI --> RM["Right DC gearmotor"]
+
+    MB --> OFS["OFS-R2.1.1<br/>PAW3395 optical-flow board"]
+    MB --> ENC["ENC-R1.0<br/>MA730 wheel encoder boards"]
+
+    OFS --> REL["Relative tabletop motion"]
+    ENC --> WHEEL["Wheel angle / odometry"]
+    MDI --> IMU["Inertial orientation / motion"]
+
+    CAM["Overhead camera + fiducials<br/>planned system layer"] --> HOST["Host perception + experiment software<br/>planned"]
     HOST --> MB
-    REL --> FUSION[Pose estimation / sensor fusion\nplanned]
+
+    REL --> FUSION["Pose estimation / sensor fusion<br/>planned"]
     WHEEL --> FUSION
     IMU --> FUSION
     CAM --> FUSION
