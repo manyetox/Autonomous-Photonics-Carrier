@@ -1,0 +1,8 @@
+PolyForm Noncommercial License 1.0.0
+
+The firmware and software in this repository are licensed under the PolyForm Noncommercial License 1.0.0.
+
+Canonical terms:
+https://polyformproject.org/licenses/noncommercial/1.0.0/
+
+Required Notice: Copyright 2026 Taylan Arslan.

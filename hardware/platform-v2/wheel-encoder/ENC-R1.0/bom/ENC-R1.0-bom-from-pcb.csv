@@ -1,0 +1,5 @@
+Quantity,References,Value / Part,Footprint,Source
+1,C2,100n,Capacitor_SMD:C_0603_1608Metric,Auto-extracted from KiCad PCB; verify against schematic before ordering
+1,C1,1u,Capacitor_SMD:C_0603_1608Metric,Auto-extracted from KiCad PCB; verify against schematic before ordering
+2,"J1, J2",Conn_01x07_Socket,Library-kicad:7 pin smd conn 2.54,Auto-extracted from KiCad PCB; verify against schematic before ordering
+1,U1,MA730,Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.75x1.75mm,Auto-extracted from KiCad PCB; verify against schematic before ordering

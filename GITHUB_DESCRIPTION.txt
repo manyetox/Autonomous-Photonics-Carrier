@@ -1,0 +1,4 @@
+Source-available modular mobile carrier for autonomous photonics experiments using ESP32 control, optical flow, IMU sensing and magnetic wheel encoding.
+
+Suggested GitHub topics:
+autonomous-photonics, photonics, robotics, esp32, kicad, embedded-systems, sensor-fusion, optical-flow, paw3395, bno086, ma730, research-hardware, optomechanics

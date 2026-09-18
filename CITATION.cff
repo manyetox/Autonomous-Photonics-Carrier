@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If this hardware repository contributes to your research, please cite the repository and identify the hardware board revisions used."
+type: software
+title: "Autonomous-Photonics-Carrier"
+authors:
+  - family-names: "Arslan"
+    given-names: "Taylan"
+repository-code: "https://github.com/manyetox/Autonomous-Photonics-Carrier"
+abstract: >-
+  Source-available modular mobile carrier hardware for research into autonomous
+  and reconfigurable free-space photonics experiments. The repository contains
+  KiCad hardware sources, fabrication outputs, preliminary firmware, versioned
+  sub-board documentation, and validation/reproducibility notes.
+keywords:
+  - photonics
+  - robotics
+  - autonomous experiments
+  - embedded systems
+  - optical flow
+  - sensor fusion

@@ -1,0 +1,21 @@
+# KiCad local/editor state
+*.kicad_prl
+*.lck
+~*
+*-backups/
+.history/
+fp-info-cache
+
+# PlatformIO / editors
+.pio/
+.vscode/
+.idea/
+
+# OS / Python
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+
+# Temporary fabrication exports
+*.tmp

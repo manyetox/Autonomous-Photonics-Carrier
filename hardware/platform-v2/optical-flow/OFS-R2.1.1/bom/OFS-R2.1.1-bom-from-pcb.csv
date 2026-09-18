@@ -1,0 +1,13 @@
+Quantity,References,Value / Part,Footprint,Source
+3,"C2, C4, C5",100nF,Capacitor_SMD:C_0603_1608Metric,Auto-extracted from KiCad PCB; verify against schematic before ordering
+1,R1,10K,Resistor_SMD:R_0603_1608Metric,Auto-extracted from KiCad PCB; verify against schematic before ordering
+3,"C3, C6, C8",10uF,Capacitor_SMD:C_0603_1608Metric,Auto-extracted from KiCad PCB; verify against schematic before ordering
+2,"C11, C9",1uF,Capacitor_SMD:C_0603_1608Metric,Auto-extracted from KiCad PCB; verify against schematic before ordering
+1,C10,22nF,Capacitor_SMD:C_0603_1608Metric,Auto-extracted from KiCad PCB; verify against schematic before ordering
+1,C7,22uF,Capacitor_SMD:C_0805_2012Metric,Auto-extracted from KiCad PCB; verify against schematic before ordering
+1,R3,2M,Resistor_SMD:R_0603_1608Metric,Auto-extracted from KiCad PCB; verify against schematic before ordering
+1,R2,4.7,Resistor_SMD:R_0603_1608Metric,Auto-extracted from KiCad PCB; verify against schematic before ordering
+1,C1,4.7uF,Capacitor_SMD:C_0603_1608Metric,Auto-extracted from KiCad PCB; verify against schematic before ordering
+1,U3,AP2127K-1.8,Package_TO_SOT_SMD:SOT-23-5,Auto-extracted from KiCad PCB; verify against schematic before ordering
+1,J3,Conn_01x07_Pin,Library-kicad:7 pin smd conn 2.54,Auto-extracted from KiCad PCB; verify against schematic before ordering
+1,U2,PAW3395,Library-kicad:PAW3395,Auto-extracted from KiCad PCB; verify against schematic before ordering

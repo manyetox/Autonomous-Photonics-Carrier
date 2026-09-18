@@ -1,0 +1,51 @@
+Quantity,References,Value / Part,Footprint,Source
+5,"R29, R30, R51, R52, R63",0,Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,Auto-extracted from KiCad PCB; verify against schematic before ordering
+2,"R62, R7",0,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,Auto-extracted from KiCad PCB; verify against schematic before ordering
+4,"C13, C17, C19, C21",0.1u,Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,Auto-extracted from KiCad PCB; verify against schematic before ordering
+4,"C4, C7, C8, C9",0.1uF,Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,Auto-extracted from KiCad PCB; verify against schematic before ordering
+2,"R21, R22",0.2,Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder,Auto-extracted from KiCad PCB; verify against schematic before ordering
+1,C14,0.47u,Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,Auto-extracted from KiCad PCB; verify against schematic before ordering
+8,"R24, R25, R26, R27, R54, R55, R56, R57",0.5,Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,Auto-extracted from KiCad PCB; verify against schematic before ordering
+4,"R38, R39, R40, R47",100k,Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,Auto-extracted from KiCad PCB; verify against schematic before ordering
+17,"C16, C23, C24, C25, C26, C27, C30, C32, C42, C43, C44, C53, C54, C55, C58, C60, C64",100n,Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,Auto-extracted from KiCad PCB; verify against schematic before ordering
+16,"C33, C34, C35, C36, C37, C38, C39, C40, C41, C46, C47, C48, C49, C50, C51, C52",100p,Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,Auto-extracted from KiCad PCB; verify against schematic before ordering
+19,"R1, R12, R13, R14, R18, R28, R3, R31, R32, R33, R34, R35, R36, R37, R4, R48, R49, R50, R8",10k,Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,Auto-extracted from KiCad PCB; verify against schematic before ordering
+7,"C10, C15, C18, C20, C45, C5, C63",10u,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,Auto-extracted from KiCad PCB; verify against schematic before ordering
+1,R60,150K,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,Auto-extracted from KiCad PCB; verify against schematic before ordering
+2,"R10, R17",1k,Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,Auto-extracted from KiCad PCB; verify against schematic before ordering
+2,"R23, R53",2.2,Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,Auto-extracted from KiCad PCB; verify against schematic before ordering
+2,"R45, R46",22,Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,Auto-extracted from KiCad PCB; verify against schematic before ordering
+1,C65,220u,Capacitor_THT:C_Radial_D10.0mm_H12.5mm_P5.00mm,Auto-extracted from KiCad PCB; verify against schematic before ordering
+2,"C31, C57",22n,Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,Auto-extracted from KiCad PCB; verify against schematic before ordering
+2,"C61, C62",22u,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,Auto-extracted from KiCad PCB; verify against schematic before ordering
+1,R58,250K,Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,Auto-extracted from KiCad PCB; verify against schematic before ordering
+1,L1,3.3u,Inductor_SMD:L_Abracon_ASPI-0630LR,Auto-extracted from KiCad PCB; verify against schematic before ordering
+1,R61,33k,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,Auto-extracted from KiCad PCB; verify against schematic before ordering
+5,"R11, R41, R42, R43, R44",3k,Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,Auto-extracted from KiCad PCB; verify against schematic before ordering
+2,"R15, R16",4.7k,Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,Auto-extracted from KiCad PCB; verify against schematic before ordering
+2,"C29, C56",4.7u,Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,Auto-extracted from KiCad PCB; verify against schematic before ordering
+1,C2,4.7uF,Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,Auto-extracted from KiCad PCB; verify against schematic before ordering
+2,"R19, R20",47,Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,Auto-extracted from KiCad PCB; verify against schematic before ordering
+2,"C28, C59",470n,Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,Auto-extracted from KiCad PCB; verify against schematic before ordering
+1,R59,53K,Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,Auto-extracted from KiCad PCB; verify against schematic before ordering
+1,C22,5pf,Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,Auto-extracted from KiCad PCB; verify against schematic before ordering
+1,BMO1,BNO086,Package_LGA:LGA-28_5.2x3.8mm_P0.5mm,Auto-extracted from KiCad PCB; verify against schematic before ordering
+1,J5,BNO_BOOT_Test_pin,Connector_Wire:SolderWirePad_1x01_SMD_1x2mm,Auto-extracted from KiCad PCB; verify against schematic before ordering
+14,"J19, J20, J21, J22, J23, J24, J25, J26, J27, J28, J29, J47, J6, J7",Conn_01x01_Pin,Connector_Wire:SolderWirePad_1x01_SMD_1x2mm,Auto-extracted from KiCad PCB; verify against schematic before ordering
+20,"J12, J13, J16, J18, J30, J31, J32, J33, J34, J36, J37, J39, J40, J41, J42, J43, J44, J45, J46, J9",Conn_01x02_Pin,Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical,Auto-extracted from KiCad PCB; verify against schematic before ordering
+1,J38,Conn_01x02_Pin,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,Auto-extracted from KiCad PCB; verify against schematic before ordering
+1,J15,Conn_01x03_Pin,Connector_PinHeader_1.00mm:PinHeader_1x03_P1.00mm_Vertical,Auto-extracted from KiCad PCB; verify against schematic before ordering
+1,J17,Conn_01x04_Pin,Connector_PinHeader_1.00mm:PinHeader_1x04_P1.00mm_Vertical,Auto-extracted from KiCad PCB; verify against schematic before ordering
+2,"DRV8231DSGR2, DRV8231DSGR3",DRV8231DSGR,Package_SO:HSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.1mm_ThermalVias,Auto-extracted from KiCad PCB; verify against schematic before ordering
+1,DWM1,DWM3000,RF_Module:DWM1000,Auto-extracted from KiCad PCB; verify against schematic before ordering
+1,U1,ESP32-S3-WROOM-1,RF_Module:ESP32-S3-WROOM-1,Auto-extracted from KiCad PCB; verify against schematic before ordering
+6,"Onboard1, Onboard2, Onboard3, Onboard4, Onboard5, Outer1",LED,LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder,Auto-extracted from KiCad PCB; verify against schematic before ordering
+2,"SW10, SW9",SW_Push,Button_Switch_SMD:SW_SPST_CK_KXT3,Auto-extracted from KiCad PCB; verify against schematic before ordering
+1,J2,Screw_Terminal_01x02,Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical,Auto-extracted from KiCad PCB; verify against schematic before ordering
+1,J3,Screw_Terminal_01x02,Connector_PinSocket_2.54mm:PinSocket_2x01_P2.54mm_Vertical,Auto-extracted from KiCad PCB; verify against schematic before ordering
+2,"J10, J4",Steepper1,Connector_PinHeader_1.00mm:PinHeader_1x04_P1.00mm_Vertical,Auto-extracted from KiCad PCB; verify against schematic before ordering
+2,"J1, J11",Stepper2,Connector_PinHeader_1.00mm:PinHeader_1x04_P1.00mm_Vertical,Auto-extracted from KiCad PCB; verify against schematic before ordering
+2,"U3, U4",TMC5041-LA,Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.3x5.3mm_ThermalVias,Auto-extracted from KiCad PCB; verify against schematic before ordering
+1,U6,TPS56528DDA,Package_SO:Texas_HSOP-8-1EP_3.9x4.9mm_P1.27mm_ThermalVias,Auto-extracted from KiCad PCB; verify against schematic before ordering
+1,U5,USBLC6-2SC6,Package_TO_SOT_SMD:SOT-23-6,Auto-extracted from KiCad PCB; verify against schematic before ordering
+1,J8,USB_B_Mini,Connector_USB:USB_Mini-B_Wuerth_65100516121_Horizontal,Auto-extracted from KiCad PCB; verify against schematic before ordering
