@@ -6,7 +6,13 @@ This repository contains the electronics, fabrication files, preliminary embedde
 
 > **Project status — September 2026:** the **Platform V2 hardware design is finished**. Manufacturing and assembly are **partially complete and awaiting remaining parts**. The V2 main controller, motor/IMU board, and MA730 wheel-encoder board have been bench validated. The PAW3395 optical-flow board is the only current board that has not yet been experimentally validated. Full multi-sensor autonomous operation and the experiment-control software are still under development.
 
-> **Image placeholder — project overview:** I will add a photograph of the assembled Platform V2 carrier here once the remaining parts arrive.
+<p align="center">
+  <img src="media/V2-real-media.jpeg" width="42%" alt="Partially assembled Platform V2 carrier — front view">
+  &nbsp;&nbsp;
+  <img src="media/V2-real-back-media.jpeg" width="42%" alt="Partially assembled Platform V2 carrier — rear view">
+</p>
+
+<p align="center"><em>Current Platform V2 hardware during assembly. Front and rear views of the mobile carrier with the optical-post interface installed. The mechanical and electrical design is complete, while final assembly is still awaiting the remaining parts.</em></p>
 
 ## Read this first: platform versions are not board revisions
 
@@ -63,7 +69,11 @@ The V2 redesign deliberately separates functions across small PCBs. This makes t
 | **OFS-R2.1.1** | Bottom optical-flow sensing | PAW3395, AP2127K-1.8 | 2-layer, ~19.3 × 24.0 mm | **Not yet experimentally validated** |
 | **ENC-R1.0** | Wheel-angle sensing | MA730 magnetic encoder | 2-layer, ~20 × 16.8 mm | **Validated** |
 
-> **Image placeholder — V2 electronics:** I will add a top-down photograph of the V2 motherboard and daughterboards here.
+<p align="center">
+  <img src="media/V2-media.png" width="60%" alt="Platform V2 mechanical and electronics render">
+</p>
+
+<p align="center"><em>Platform V2 design render. The current generation uses a modular electronics architecture so sensing, motor control, and the main controller can be manufactured, debugged, and revised independently.</em></p>
 
 ## Design evolution
 
@@ -71,7 +81,11 @@ The V2 redesign deliberately separates functions across small PCBs. This makes t
 
 V1 placed most functions on one approximately **50 × 50 mm, 8-layer PCB**. The design included an **ESP32-S3-WROOM-1**, **DWM3000 UWB**, **BNO086 IMU**, **two TMC5041 stepper-controller ICs**, **DRV8231 motor-driver stages**, and the associated power and USB circuitry. It was a useful integration exercise and was built around the original concept of combining coarse mobile motion with local stepper/flexure positioning.
 
-> **Image placeholder — Platform V1:** I will add a photograph or render of the assembled V1 board here.
+<p align="center">
+  <img src="media/V1-media.png" width="62%" alt="Platform V1 carrier concept render">
+</p>
+
+<p align="center"><em>Platform V1 concept. The first carrier generation combined the mobile base with local optomechanical positioning and concentrated most of the electronics onto a single integrated PCB.</em></p>
 
 ### Why V2 changed direction
 
@@ -85,6 +99,16 @@ The current architecture intentionally moves away from putting every possible fu
 - **Cost and repeatability:** the architecture is intended to scale to multiple carriers, so unnecessary per-carrier complexity matters.
 
 The V1 source is retained because it documents the design path and may still be useful to researchers interested in a more integrated architecture.
+
+### Legacy reference — pre-project mobile robotics hardware
+
+Before the dedicated photonics-carrier generations, I developed a more general mobile-robot electronics platform. It is retained in [`hardware/legacy-reference`](hardware/legacy-reference/) because several practical design lessons carried into this project, but it is **not Platform V0** and should not be treated as part of the carrier version sequence.
+
+<p align="center">
+  <img src="media/legacy-media.png" width="62%" alt="Legacy mobile robotics reference hardware">
+</p>
+
+<p align="center"><em>Legacy mobile-robot reference design retained for engineering context. It predates the autonomous-photonics carrier and is included only to document relevant design heritage.</em></p>
 
 ## Repository map
 
