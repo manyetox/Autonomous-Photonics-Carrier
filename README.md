@@ -33,6 +33,25 @@ Free-space optical experiments are normally assembled and aligned manually. Even
 
 This repository focuses on the carrier layer: motion, embedded electronics, local sensing, and the interfaces needed for higher-level perception and closed-loop experiment control. It does **not** claim that autonomous optical alignment has already been solved; that is the experimental work this platform is intended to enable.
 
+## Research questions
+
+The project is being developed as an experimental research platform rather than only as a mobile-robot hardware build. The central question is:
+
+> **Can a self-propelled optical post-holder module combine mobile positioning, multi-sensor localisation, and optical feedback to autonomously reconstruct and align repeatable free-space photonics experiments?**
+
+The current evaluation is organised around six questions:
+
+1. **Coarse positioning accuracy and repeatability** — How accurately can a carrier reach a commanded planar pose \((x, y, \psi)\), and how closely can it return to that pose over repeated trials? How are the results affected by approach direction, travel distance, wheel slip, payload, and table-surface conditions?
+2. **Stationary stability** — How much translational and angular drift occurs while the carrier remains stationary on its wheels? How are the results affected by motor-hold strategy, payload centre of mass, battery voltage, and measurement duration?
+3. **Localisation and sensor fusion** — What accuracy and robustness can be achieved using the MA730 wheel encoders, PAW3395 optical-flow sensor, BNO086 IMU, and planned overhead visual fiducials individually and in combination? In particular, can the fused estimate remain useful during wheel slip, short visual occlusion, and accumulated odometry drift?
+4. **Closed-loop optical alignment and recovery** — Can optical feedback compensate for the residual mechanical error remaining after mobile positioning? What alignment error, convergence time, capture range, success rate, and recovery behaviour can be achieved?
+5. **Experiment reconstruction and operating range** — Can one or more carriers reconstruct the same optical configuration on separate occasions and reproduce the same measurement? For which beam sizes, propagation distances, wavelengths, and classes of tabletop experiment is the achieved positioning performance sufficient?
+6. **Compatibility, cost, and scalability** — Can the platform carry standard optical posts and common holders without permanent modification? What payload, centre-of-mass height, battery runtime, and cost per carrier are practical, and how does operation change when multiple carriers share the same workspace?
+
+These questions are intended to map directly onto measurable experiments. Results will only be reported after the relevant mechanical, electronic, localisation, and optical-control subsystems have been implemented and experimentally characterised.
+
+> **Design-evolution note:** the earliest research framing included an on-carrier screw-and-flexure fine-positioning stage and UWB ranging. Those ideas belong to the earlier design direction and are **not core Platform V2 subsystems**. Platform V2 instead focuses on a modular mobile carrier using wheel encoding, bottom optical flow, inertial sensing, planned overhead visual localisation, and later optical feedback. Fine optomechanical correction can be evaluated as a separate layer if required.
+
 ## Current Platform V2 architecture
 
 ```mermaid
@@ -184,7 +203,30 @@ The repository is organised so that later results can be reproduced rather than 
 
 See [`docs/research-methodology.md`](docs/research-methodology.md) and [`docs/validation.md`](docs/validation.md). Until those experiments are complete, target resolutions or simulated estimates should not be read as measured performance.
 
-For the research context behind the architecture, see [`docs/related-work.md`](docs/related-work.md), which discusses OptoMate, closed-loop robotic optical assembly, and UbiSwarm as adjacent work without treating architectural similarity as a performance claim.
+For the research context behind the architecture, see [`docs/related-work.md`](docs/related-work.md).
+
+## Research context and selected related work
+
+This project sits between **robotic optical alignment**, **autonomous laboratories**, and **mobile multi-sensor robotics**. The most directly relevant prior work is summarised here; the longer discussion belongs in [`docs/related-work.md`](docs/related-work.md).
+
+- **OptoMate / AI-Driven Robotics for Optics** demonstrates a general-purpose robotic approach to physically assembling and aligning free-space optical experiments using computer vision, robotic manipulation, and AI-assisted control [1]. It is a particularly close research neighbour, but it uses an external robotic manipulator rather than making each optical element independently mobile.
+- **Choi et al.** present a closed-loop framework for robotic optical assembly, alignment, and self-recovery [2]. This is directly relevant to the carrier's long-term objective of detecting misalignment, correcting it from measurement feedback, and recovering after a disturbance.
+- **Rakhmatulin et al.** review automated laser-optics alignment, including optimisation and machine-learning approaches [3]. Their review motivates treating the optical signal itself as a feedback variable rather than assuming that geometric positioning alone is sufficient.
+- **Fang and Savransky** show automated alignment of a reconfigurable optical system using focal-plane sensing and Kalman filtering [4], providing an example of image-based estimation driving corrective optical motion.
+- **Szymanski et al.** demonstrate the broader self-driving-laboratory concept in which robotics, measurement, and computational decision-making form a closed experimental loop [5]. The present project explores a different physical layer: making the experimental optical hardware itself reconfigurable on the tabletop.
+
+Commercial active-alignment systems from companies such as Physik Instrumente provide useful industrial context: high-precision automated optical alignment is already practical, but such systems are generally built around dedicated stages and predefined alignment tasks rather than low-cost independently mobile optical carriers [6].
+
+The distinction matters: this repository does **not** claim that the individual techniques above are new. The research question is whether coarse mobile positioning, complementary low-cost sensing, standard optomechanical compatibility, and closed-loop optical feedback can be combined into a scalable carrier architecture for reconfigurable free-space experiments.
+
+## Selected references
+
+1. S. Z. Uddin, S. Vaidya, S. Choudhary, Z. Chen, R. K. Salib, L. Huang, D. R. Englund, and M. Soljačić, **“AI-Driven Robotics for Optics,”** arXiv:2505.17985, 2025. https://doi.org/10.48550/arXiv.2505.17985
+2. S. Choi, S. Vaidya, C. Silva, S. Z. Uddin, S. B. Shuvo, S. Choudhary, and M. Soljačić, **“A Framework for Closed-Loop Robotic Assembly, Alignment and Self-Recovery of Precision Optical Systems,”** arXiv:2603.21496, 2026. https://doi.org/10.48550/arXiv.2603.21496
+3. I. Rakhmatulin, D. Risbridger, R. Carter, M. J. D. Esser, and M. S. Erden, **“A Review of Automation of Laser Optics Alignment with a Focus on Machine Learning Applications,”** *Optics and Lasers in Engineering*, vol. 173, 107923, 2024. https://doi.org/10.1016/j.optlaseng.2023.107923
+4. J. Fang and D. Savransky, **“Automated Alignment of a Reconfigurable Optical System Using Focal-Plane Sensing and Kalman Filtering,”** arXiv:1608.07550, 2016. https://arxiv.org/abs/1608.07550
+5. N. J. Szymanski *et al.*, **“An Autonomous Laboratory for the Accelerated Synthesis of Inorganic Materials,”** *Nature*, vol. 624, pp. 86–91, 2023. https://doi.org/10.1038/s41586-023-06734-w
+6. PI (Physik Instrumente), **“Active Photonics Alignment Systems / Fiber Optic Alignment Stages,”** product and application documentation. https://www.pi-usa.us/en/products/photonics-alignment-solutions
 
 ## Project information
 
