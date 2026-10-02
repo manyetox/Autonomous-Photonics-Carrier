@@ -28,7 +28,7 @@ Send newline-terminated commands through that firmware's serial console:
 
 `motor LEFT RIGHT`: -1 to 1, signed normalised PWM, not measured speed. Requires verified wiring, lifted wheels and a current-limited supply. **No command timeout exists:** send `stop` after testing. This stops only the connected robot. Raw ADC is not calibrated battery voltage.
 
-## Proposed orchestration interface — NOT IMPLEMENTED
+## Proposed orchestration interface 
 
 The commands below propose a root-level Python 3 wrapper, `bot.py`; they are **not runnable yet**. Require implemented, validated backends before use. Once available, check `python3 bot.py --help`; report missing capabilities instead of inventing commands.
 
