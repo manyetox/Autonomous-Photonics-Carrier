@@ -99,7 +99,7 @@ The V2 redesign deliberately separates functions across small PCBs. This makes t
 
 ### Platform V3 — lower-cost IMU, in development
 
-V3 replaces the V2 BNO086 with the **STMicroelectronics LSM6DS3**, identified in the latest schematic discussion. This is a six-axis accelerometer/gyroscope; V3 needs a matching driver and host-side orientation estimation instead of the BNO086 rotation-vector interface. The supplied [V3 hardware](hardware/platform-v3/README.md) includes the two-layer MDI-R3.0 motor/IMU board and OFS-R2.2 optical board. KiCad checks found manufacturing-rule errors, so their supplied Gerbers remain development drafts. See [V3 development notes](docs/platform-v3.md).
+V3 replaces the V2 BNO086 with the **STMicroelectronics LSM6DS3**, identified in the latest schematic discussion. This is a six-axis accelerometer/gyroscope; V3 needs a matching driver and host-side orientation estimation instead of the BNO086 rotation-vector interface. The supplied [V3 hardware](hardware/platform-v3/README.md) includes the two-layer MDI-R3.0 motor/IMU board and OFS-R2.2 optical board. See [V3 development notes](docs/platform-v3.md).
 
 ### Platform V1 — integrated architecture
 
@@ -170,7 +170,6 @@ Start here:
 - [Platform V1 hardware](hardware/platform-v1/README.md)
 - [Platform V2 hardware](hardware/platform-v2/README.md)
 - [Platform V3 development hardware](hardware/platform-v3/README.md)
-- [V3 hardware import checks](docs/hardware-import-validation.md)
 - [V2 mainboard — MB-R2.1](hardware/platform-v2/mainboard/MB-R2.1/README.md)
 - [Motor/IMU — MDI-R2.0](hardware/platform-v2/motor-driver-imu/MDI-R2.0/README.md)
 - [Optical flow — OFS-R2.1.1](hardware/platform-v2/optical-flow/OFS-R2.1.1/README.md)

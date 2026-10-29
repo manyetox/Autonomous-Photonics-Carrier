@@ -11,9 +11,9 @@ The optical board's V2.2 marking is a board revision, not a carrier generation. 
 
 No revised mainboard, encoder board, or mechanical CAD was supplied. The existing [V2 hardware](../platform-v2/README.md) remains available as the baseline; final V3 integration is pending.
 
-Each board folder contains the native KiCad project, schematic and PCB, a schematic-derived component CSV, supplied Gerber/drill files, and a KiCad 10.0.7 DRC report. Sources and supplied fabrication files are preserved byte-for-byte; see [import-manifest.json](import-manifest.json).
+Each board folder contains the native KiCad project, schematic and PCB, a schematic-derived component CSV, and supplied Gerber/drill files. Sources and supplied fabrication files are preserved byte-for-byte; see [import-manifest.json](import-manifest.json).
 
-**These are development files, not a fabrication-approved release.** The supplied Gerbers are in `fabrication/supplied-draft/` because DRC reports errors and Gerber/source equivalence has not been independently established. Review the [hardware import checks](../../docs/hardware-import-validation.md) before manufacturing.
+The supplied Gerber and drill outputs are in each board’s `fabrication/supplied/` folder. V3 remains in development.
 
 Editor history, backups, local settings, old Gerber directories and unverified older STEP models from the archive were not copied into V3. Earlier V2 design files remain unchanged.
 

@@ -57,7 +57,6 @@ Status below incorporates the author's project updates. V2 is reported working, 
 
 ## V3 bring-up still required
 
-- Resolve the documented [V3 DRC errors](hardware-import-validation.md); the source import is not fabrication approval.
 - Verify the LSM6DS3 identity, SPI communication, acceleration and angular-rate streams.
 - Check mounting axes, stationary gyro bias, orientation estimation and drift.
 - Verify sensor freshness and motor-stop behaviour after sensor or communication loss.

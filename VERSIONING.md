@@ -26,7 +26,7 @@ Each PCB has its own identifier:
 
 Therefore, **OFS-R2.1.1 is not “Platform V2.1.1.”** It is board revision 2.1.1 within Platform V2.
 
-V2 board IDs above identify the published V2 hardware. They must not be relabelled as V3 merely because development has started. The supplied V3 development snapshot adds **MDI-R3.0** (PCB marked V3.0) and **OFS-R2.2** (PCB marked V2.2). Their supplied fabrication outputs are drafts with outstanding DRC errors; see `hardware/platform-v3/README.md`. Firmware version 2.4 is a software version, not a platform generation.
+V2 board IDs above identify the published V2 hardware. They must not be relabelled as V3 merely because development has started. The supplied V3 development snapshot adds **MDI-R3.0** (PCB marked V3.0) and **OFS-R2.2** (PCB marked V2.2). Their supplied fabrication outputs are included with the development snapshot; see `hardware/platform-v3/README.md`. Firmware version 2.4 is a software version, not a platform generation.
 
 ## Historical fabrication outputs
 

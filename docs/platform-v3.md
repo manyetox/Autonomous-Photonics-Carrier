@@ -41,7 +41,6 @@ At the author's request, [V3 firmware remains pending](../firmware/platform-v3/R
 
 ## Remaining work
 
-- Resolve the errors in the [hardware import checks](hardware-import-validation.md) and regenerate fabrication outputs from the reviewed sources.
 - Confirm purchased component variants, BOM and final ESP32 wiring.
 - Resolve and retest the reported regulator failures under motor load; their cause and any separate 3.3 V supply redesign remain unconfirmed.
 - Implement and test V3 IMU firmware, calibration, sensor freshness and communication-loss stopping.

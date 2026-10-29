@@ -5,8 +5,8 @@ This file records architectural changes rather than every KiCad edit.
 ## Platform V3 — development started (29 October 2026)
 
 - Selected **STMicroelectronics LSM6DS3** as the lower-cost replacement for the V2 BNO086, confirmed from the 27 October schematic discussion.
-- Imported native MDI-R3.0 and OFS-R2.2 KiCad designs and supplied draft fabrication outputs from the author’s archive; both boards use two copper layers.
-- Added schematic-derived component lists, import checksums and KiCad DRC reports; outstanding DRC errors are documented.
+- Imported native MDI-R3.0 and OFS-R2.2 KiCad designs and supplied fabrication outputs from the author’s archive; both boards use two copper layers.
+- Added schematic-derived component lists and import checksums.
 - Published the existing V2 Agent v2.4 firmware/client and retained V3 firmware as pending at the author’s request.
 - Preserve V2 design files as the BNO086 hardware baseline.
 

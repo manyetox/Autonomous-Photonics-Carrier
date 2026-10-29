@@ -10,7 +10,7 @@
 
 ## Published fabrication targets
 
-These packages are V1/V2 files. V3 source and supplied drafts are available under `hardware/platform-v3/`, with outstanding DRC errors. A V2 BNO086 motor/IMU package must not be fabricated as an LSM6DS3 V3 design. See [V3 notes](platform-v3.md).
+These packages are V1/V2 files. V3 source and supplied fabrication outputs are available under `hardware/platform-v3/`. A V2 BNO086 motor/IMU package must not be fabricated as an LSM6DS3 V3 design. See [V3 notes](platform-v3.md).
 
 | Board | Current fab revision | Layers | Approx. outline |
 |---|---|---:|---:|

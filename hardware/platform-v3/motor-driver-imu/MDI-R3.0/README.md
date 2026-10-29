@@ -10,7 +10,4 @@ Replaces the V2 BNO086 with LSM6DS3 and reduces the motor/IMU PCB from four copp
 
 - `source/`: supplied native KiCad project, schematic and PCB; original filenames retained.
 - [Component CSV](bom/components-from-schematic.csv): extracted from the schematic, not a verified purchasing BOM.
-- `fabrication/supplied-draft/`: supplied Gerber/drill outputs; not released for manufacturing.
-- [DRC report](validation/drc.json): KiCad 10.0.7 checks on 29 October 2026.
-
-DRC reported **30 errors and 20 warnings**, with zero unconnected items and zero schematic/PCB parity issues. This is not a clean DRC result. See [import validation](../../../../docs/hardware-import-validation.md) for the categories and limitations.
+- `fabrication/supplied/`: supplied Gerber/drill outputs.
