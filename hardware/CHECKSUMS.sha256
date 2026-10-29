@@ -1,57 +1,95 @@
 4ce94a735ee717cf10be5562937eed5b42e6e4b09abc23357faa46cf5bc5db77  legacy-reference/README.md
 b5031a9a1457a0e7ba9c2b5848dbd0c76f7081f6105a91a7f02e73ed1d6b81f6  legacy-reference/source/fabrication-toolkit-options.json
-49b4e483fb8420755146f424cdcf54be0c53fd40e33f72e9058cdf337ed46756  legacy-reference/source/robot aio esp32 manuel solder 8 layer updated with 3.3 lineer.kicad_pcb
+e01a15f1a9d9037295490f6c8604962e2b9c024ad62a6b12b4a8eec441f6e536  legacy-reference/source/robot aio esp32 manuel solder 8 layer updated with 3.3 lineer.kicad_pcb
 a8b5c71b717124c1043d551a7f2a87987793a70d64ff56ff167eff73737c2a06  legacy-reference/source/robot aio esp32 manuel solder 8 layer updated with 3.3 lineer.kicad_pro
-84630b6473dbaa382f3301e32f0bd02360081f3f4513c3cc030421a8db756b1d  legacy-reference/source/robot aio esp32 manuel solder 8 layer.kicad_pcb
+b533cb6affd04be78217ada58cbf79f6f4ddd25a5a82497b90d5bfd26c4b9fdb  legacy-reference/source/robot aio esp32 manuel solder 8 layer.kicad_pcb
 7a87ed4d5124511a0bbaf291a6fbd8efad94cf61cdf599579b74da670347fd5b  legacy-reference/source/robot aio esp32 manuel solder 8 layer.kicad_pro
-f4a3177ef41045cb1637feb16bffbb27a807664cb249c21c08b117b2dcc23f8d  legacy-reference/source/robot aio esp32 manuel solder 8 layer.kicad_sch
+009d0e5b4a99e4196876e6c42d4ad8da91f972420b8b13c50c23b9851c8c3332  legacy-reference/source/robot aio esp32 manuel solder 8 layer.kicad_sch
 a683983e9cd3963d316af029041b18ce1fb84ac534002ec6e805d14482c1ec8f  platform-v1/INT-R1.0.1/README.md
 deac62b00e067b8745316f18f43fe1dbd1c1e094f9bf323e0ce32746a4c7598f  platform-v1/INT-R1.0.1/archive/INT-R1.0-schematic.pdf
-733a4118669c057b5c6973eaaa16acfdbb18b9dbe465e9e9a989869cd77a8fbc  platform-v1/INT-R1.0.1/bom/INT-R1.0.1-bom-from-pcb.csv
+86e372a6483102dbd34c84826fc61a3c406560a2e650cba21c03f25658591f72  platform-v1/INT-R1.0.1/bom/INT-R1.0.1-bom-from-pcb.csv
 aca791e37ebcc65f153fdf12874c2390161eb733405f0438a11343b1074943f9  platform-v1/INT-R1.0.1/exports/INT-R1.0.1-schematic.pdf
 7ad0aee3f3649a14137103485425eef5f49a75df3fdea5ab1d69e45630e6826e  platform-v1/INT-R1.0.1/fabrication/current/INT-R1.0.1-gerbers.zip
-ebcea54bd71a4931f9f2824cfccdfa97eac06afed6cbb5e80ec22aa453cf44d6  platform-v1/INT-R1.0.1/source/IMU.kicad_sch
-79120131e8ff834635a759c455bc2c37ef57b811078f7dd5b03dd84997379d9e  platform-v1/INT-R1.0.1/source/Motor.kicad_sch
-a49ec150827a12b99cc623c5cee8b11e55398ca4b0ad550b2117657001f8c704  platform-v1/INT-R1.0.1/source/Power.kicad_sch
-e8a0fdb7cfb34c2c4de7a76e510a3c1fdf857cfcf34941494c268af5edc769be  platform-v1/INT-R1.0.1/source/UWB.kicad_sch
-b01f907e34e29863780a5d79f820f99e4629ed2ebb60fedd070235b7a6a75e88  platform-v1/INT-R1.0.1/source/V1.kicad_pcb
+070f9fecf3e8730ddeee616122d16b3a22e451823646d7cf0c48940408076fc7  platform-v1/INT-R1.0.1/source/IMU.kicad_sch
+f78d91f7b3671a5b875f37edf10cd208a003f00cc2792a3633e574f13d8cac7a  platform-v1/INT-R1.0.1/source/Motor.kicad_sch
+4c032d354020df4f20df6011aa8f3ace36d01f0733c698efbed479584b4568a1  platform-v1/INT-R1.0.1/source/Power.kicad_sch
+0c367a529cb1501d2420d30d8cb95cbbcc8bd91d947d86e3d36a1db11c6fc09a  platform-v1/INT-R1.0.1/source/UWB.kicad_sch
+4a7f18266df34bd55fc8dfac22b80f7fa0b27f4b89a5b6e894a78532006bbac8  platform-v1/INT-R1.0.1/source/V1.kicad_pcb
 c6bd12f225e4e8d6bdd5705f3cae1c2e0eb528b1fefdd718cfb4e6d78f2423ca  platform-v1/INT-R1.0.1/source/V1.kicad_pro
-3f4ff6e4f8fa705ab3442294bea98debea4795988a8f8a99ff2d6a2fa10cac3a  platform-v1/INT-R1.0.1/source/V1.kicad_sch
-67417df394bfe8f3731ed6b600f717dbbd8d8f6dce6a0e98f50ab50888fcde76  platform-v1/INT-R1.0.1/source/connectors.kicad_sch
+ee71f9e00c1a6d167f900346875d2db9809bac66c4491ed72d3f57025f69ac32  platform-v1/INT-R1.0.1/source/V1.kicad_sch
+8e059c22e4559bb070d341bf75aa1be92c4e0d995c35257c4fc4bb1c0ec8f50e  platform-v1/INT-R1.0.1/source/connectors.kicad_sch
 5a08ff7fffc2278ec675e99472b47704e50fadd5814c2e13e65d01c095892b97  platform-v1/INT-R1.0.1/source/pcb.step
-67f60f268c2162f8577efa81ff68f3c05570f642abc799e60733855cc97d25e0  platform-v1/INT-R1.0.1/source/stepper1.kicad_sch
-af09e7c3427b42ffcc527671103c7bde332d0c808a4cdb3702b1c01376836e3b  platform-v1/INT-R1.0.1/source/stepper2.kicad_sch
+2a04b86224707f044c0416070289904d73d01536f96164ca9efeaa80fc583351  platform-v1/INT-R1.0.1/source/stepper1.kicad_sch
+02c3651ce78d3dfb8ad3cb82ca49af3b6f6be54d9e6f94f5f031a5b5f6069be4  platform-v1/INT-R1.0.1/source/stepper2.kicad_sch
 d64013bf4f764a47d2bd0a9355b35620219be8e1e0f562c9ef284a93224a21dc  platform-v1/README.md
 8cf20e17255e65e69e7db0ec81320b8895701dadbaee7ae0c994f4527f803b5e  platform-v2/KEY_COMPONENTS.md
-a208ce4ff48548085946a2e1caad47feafdff61a0ad39beee8fb452485b39291  platform-v2/README.md
+b8c0f25b97893840bf7b67b2d8090a2d2082b461e7c4df19edf77e21a90d3b73  platform-v2/README.md
 1257ef8a823db465d55475446f719dd5a9786521a87200f9526a85ca30374e0c  platform-v2/mainboard/MB-R2.1/README.md
 55903fb0babd6d696252cb6d22a2a4c062a688bc63d32ec6555dab94b8e1f41c  platform-v2/mainboard/MB-R2.1/archive/MB-R2.0-gerbers-superseded.zip
-07c6248b7fa50b816b827a55b06cbcc20471eb617f90928d1ffebad40210e807  platform-v2/mainboard/MB-R2.1/bom/MB-R2.1-bom-from-pcb.csv
+0ea6fe0ccc65da8383903d1f7cc1cee931f23eea4a92e44975ae40990f0e4515  platform-v2/mainboard/MB-R2.1/bom/MB-R2.1-bom-from-pcb.csv
 20d1595685b2676e503243bdb6e2197e04997e157a005f79387e51ada5ff6f16  platform-v2/mainboard/MB-R2.1/fabrication/current/MB-R2.1-gerbers.zip
-c1f524bb1011cf652f3087a2a9c47ed042491363d648c79080481496d795bee9  platform-v2/mainboard/MB-R2.1/source/V2-4 piece modular vertical.kicad_pcb
+9ca2186e65fbfcf780493cf1dd0335f2e8ae7c56425880ca86803f289e956cb0  platform-v2/mainboard/MB-R2.1/source/V2-4 piece modular vertical.kicad_pcb
 363169ca245d0a69f4932e913c80144d5aadd7d649044661421c33bb7a0b60ad  platform-v2/mainboard/MB-R2.1/source/V2-4 piece modular vertical.kicad_pro
-caae4e395383956df62205b1c89d407b35741fa049f1267562d6ee5cd5fc9138  platform-v2/mainboard/MB-R2.1/source/V2-4 piece modular vertical.kicad_sch
+5a3794d42b6023c1ae98f568f883a1ae241afc5221760ace4fcbb52678426f5d  platform-v2/mainboard/MB-R2.1/source/V2-4 piece modular vertical.kicad_sch
 609d7349fc108752463745dffb12ad76f16862e5cac2afd55c0abb5edcbe4aed  platform-v2/mainboard/MB-R2.1/source/v2 motherboard step.step
 f20d1ad5d47842f1c51ab1a52cc209dc536dc3c932a56659429e8ec36e13095d  platform-v2/motor-driver-imu/MDI-R2.0/README.md
-4297571873b6ae59fc5d47aa263982180bf40f4a963f8de65da8c29114336d26  platform-v2/motor-driver-imu/MDI-R2.0/bom/MDI-R2.0-bom-from-pcb.csv
+9e03a341894024ce5414b7d1859be6751bf00c83265169eee921bc1c0a71a542  platform-v2/motor-driver-imu/MDI-R2.0/bom/MDI-R2.0-bom-from-pcb.csv
 76c2277f241a5fd503c77984fe5de53484edfce151fdee6d1f5556eeb96cee81  platform-v2/motor-driver-imu/MDI-R2.0/fabrication/current/MDI-R2.0-gerbers.zip
-70b031a5781839de6e041b71967c51b4fc7651f7a700e9f36dcf1f8b5c12c094  platform-v2/motor-driver-imu/MDI-R2.0/source/motor drivers.kicad_pcb
+5d6ab50722be0bbd9af6f944064ea33c96b52bfb2f8058781319a25316ffbad0  platform-v2/motor-driver-imu/MDI-R2.0/source/motor drivers.kicad_pcb
 5a42a6611d15eb61533309cefc4059fffa72042ab265cb549976859c99f002f0  platform-v2/motor-driver-imu/MDI-R2.0/source/motor drivers.kicad_pro
-b74b8f478604f660e72de0694b9297afb5e3073f7c78dde303cdbe4611d76af7  platform-v2/motor-driver-imu/MDI-R2.0/source/motor drivers.kicad_sch
+0f66c4a20d545661dffe65c3c8b9d878ad54fbe5dbc167625dc320e0d3eb6055  platform-v2/motor-driver-imu/MDI-R2.0/source/motor drivers.kicad_sch
 2a60be1f4ae8fb3bf0b6591c1a923852d22fb470c405d6c96035573b2f146b54  platform-v2/motor-driver-imu/MDI-R2.0/source/v2 motor driver.step
-4f1c2efc22f10f057644064a33dc7193e9a35a0935ea4ef7b7b35345fe0c17dd  platform-v2/optical-flow/OFS-R2.1.1/README.md
+ffede1425151cc95352e167801eeffae33bb9f6accab09b29f180552dc4109e2  platform-v2/optical-flow/OFS-R2.1.1/README.md
 2d05bacb4857a9129930f2c50ffb23ab2456ed4bf2ae26b1f8be6dfe0b492d10  platform-v2/optical-flow/OFS-R2.1.1/archive/OFS-R2.0-gerbers-superseded.zip
 53d34eb80e30b6d76b3fa84a8796e94eed55c39b5180580218f9068d3e73bcaa  platform-v2/optical-flow/OFS-R2.1.1/archive/OFS-R2.1-gerbers-superseded.zip
-ba0f3b04d6eeb37189cd7394ae6cabda03941e9eea34d7783972abb48d34cec3  platform-v2/optical-flow/OFS-R2.1.1/bom/OFS-R2.1.1-bom-from-pcb.csv
+ed40eadcf048d1d37a3f5d3f9a6fb70c244bed7d4d154656c6a7dba8a3b82e31  platform-v2/optical-flow/OFS-R2.1.1/bom/OFS-R2.1.1-bom-from-pcb.csv
 1e4fedc913b3abae8fff7d1014ec5dd97446c38e62baff74b9f687475a9885c1  platform-v2/optical-flow/OFS-R2.1.1/fabrication/current/OFS-R2.1.1-gerbers.zip
 5e198a39a1531d7ec1380f401d68f2e051482c2905f09bb292ffd1cc01a04b20  platform-v2/optical-flow/OFS-R2.1.1/source/3d/v2.step
-5b803ec41d17a26b353bc19329c29f6256a5ddda361e79cf83ef453c317ca4a5  platform-v2/optical-flow/OFS-R2.1.1/source/optical tracking sensor paw 3395.kicad_pcb
+fe96b56f4ded27818f2730ba984fa59353909c1d8fc1987235ae123f94e3ece2  platform-v2/optical-flow/OFS-R2.1.1/source/optical tracking sensor paw 3395.kicad_pcb
 32080f3e803bde7939d2acbc8c76b9570e378ec526ba66bb64d9f154e86a0598  platform-v2/optical-flow/OFS-R2.1.1/source/optical tracking sensor paw 3395.kicad_pro
-9a64c3ec1841718f603b75ab0ca93eaaac8dbc4093c559d8889701d9d712d1c7  platform-v2/optical-flow/OFS-R2.1.1/source/optical tracking sensor paw 3395.kicad_sch
-7a4427b533eccdd59e4ee3b3e016460a7626f2346a2069c843256219d897dc67  platform-v2/wheel-encoder/ENC-R1.0/README.md
-074062774bbb95b014f7a00888fd01048d2fbaad09820d48570824332887b3b9  platform-v2/wheel-encoder/ENC-R1.0/bom/ENC-R1.0-bom-from-pcb.csv
+a719f595f497dacf89350a48de26b3c6b1fbe5ef471bd993ca8fff87dacbf6a4  platform-v2/optical-flow/OFS-R2.1.1/source/optical tracking sensor paw 3395.kicad_sch
+7269d19ca28512f167fa6d69049c2af63be8303cb176da2def0c2712e082d704  platform-v2/wheel-encoder/ENC-R1.0/README.md
+9c968cd8225f162b1192cd38fbe50c730eef9aa1f4592cfc56d4cad2fee97aba  platform-v2/wheel-encoder/ENC-R1.0/bom/ENC-R1.0-bom-from-pcb.csv
 fe99fab486441cdad82fbc8bdce3795d4f84f0341152b3c7c3069f85bae10d6e  platform-v2/wheel-encoder/ENC-R1.0/fabrication/current/ENC-R1.0-gerbers.zip
 4ec7bcc4facb41125ee4e0a1880f2a433c471e1d1e88194812ba9d3f751c169e  platform-v2/wheel-encoder/ENC-R1.0/source/HAL encoder circuit v1.step
-33762b6b8950c143703032a29207281ec7edfc4643d6a0063281b9b4be4966b0  platform-v2/wheel-encoder/ENC-R1.0/source/Wheel-Encoder.kicad_pcb
+324bd7bce2a972a10d72f1adb98a1bc03feff786f7e8aa48921531ae0e069867  platform-v2/wheel-encoder/ENC-R1.0/source/Wheel-Encoder.kicad_pcb
 f7d21e877cd2181a31e4c8d9bca472b49540e3a04450f51a793333cdeed54965  platform-v2/wheel-encoder/ENC-R1.0/source/Wheel-Encoder.kicad_pro
 1a482f0b28571eafe59fcec2dfe06882f89efea854e22bd8fe385ef48a1f1854  platform-v2/wheel-encoder/ENC-R1.0/source/Wheel-Encoder.kicad_sch
+864c350df5c939ad84e77a1194eb55cf797143b72af59f392e70aa78b302a9c0  platform-v3/README.md
+dc60d96683e87f9c072d380d8d2ca1531f715e0516c828519b2443074302bf30  platform-v3/import-manifest.json
+20eb9354ebbb94bbf03a2b0c990c0d3dcb5dda5cf040b1a1131f62883baeb8f5  platform-v3/motor-driver-imu/MDI-R3.0/README.md
+f8c24170bb4dbd43499f2b40e819d69108964f5c7b2e4d2e1ac676d055d258f1  platform-v3/motor-driver-imu/MDI-R3.0/bom/components-from-schematic.csv
+ea0adfa3b7e0ca0b1d695cdb573b4a6065e354f73f52592b1392b8ab38037a5a  platform-v3/motor-driver-imu/MDI-R3.0/fabrication/supplied-draft/motor drivers-B_Cu.gbr
+2934c8fb330fa6fb291498d4ceb50373f28e3fc9975d7cb2bda551c13fc857f7  platform-v3/motor-driver-imu/MDI-R3.0/fabrication/supplied-draft/motor drivers-B_Mask.gbr
+d315e79de54093e9a66adb2564c7d021e72232dc5355d81cfb1d0c5f5d6a91b1  platform-v3/motor-driver-imu/MDI-R3.0/fabrication/supplied-draft/motor drivers-B_Paste.gbr
+0ed7386928662e6f4ad4de05fb14c70d422356066714a85937f8057989acfb6b  platform-v3/motor-driver-imu/MDI-R3.0/fabrication/supplied-draft/motor drivers-B_Silkscreen.gbr
+40fe916429ab015b366025e58efe1eb12c1ed182cead2d3ca3d453a3ccef8734  platform-v3/motor-driver-imu/MDI-R3.0/fabrication/supplied-draft/motor drivers-Edge_Cuts.gbr
+078c8ee4a963719027875042e49aad9f2ef5f8b59f588e9faa257dd922fc8dd2  platform-v3/motor-driver-imu/MDI-R3.0/fabrication/supplied-draft/motor drivers-F_Cu.gbr
+b734db117f03163350713fca6c42818c52687ffa42214b295fb433fc3fe8dbbb  platform-v3/motor-driver-imu/MDI-R3.0/fabrication/supplied-draft/motor drivers-F_Mask.gbr
+fbc8cfbe81563416723d34679b587a7c6e6ca5d8c59592e6dc335f4b09b8be83  platform-v3/motor-driver-imu/MDI-R3.0/fabrication/supplied-draft/motor drivers-F_Paste.gbr
+2f1ef20709a0f9be8d430ce8ce307cd606c75ce811d284848acccb76b993a9d1  platform-v3/motor-driver-imu/MDI-R3.0/fabrication/supplied-draft/motor drivers-F_Silkscreen.gbr
+1acd3ceb6e83f29bf1080c6c55fe4d53c13a02c621ce2f05def6c83acca7d5b7  platform-v3/motor-driver-imu/MDI-R3.0/fabrication/supplied-draft/motor drivers-NPTH.drl
+aa52ce695f22ff3ff18b3a1184fdc7b519d4ef1574a785e700b7e9e83e38245e  platform-v3/motor-driver-imu/MDI-R3.0/fabrication/supplied-draft/motor drivers-PTH.drl
+4180cd6a5953b02a0386edd2665c294fa8043fd8cfc2d21bb9ce5c494f752f48  platform-v3/motor-driver-imu/MDI-R3.0/fabrication/supplied-draft/motor drivers-job.gbrjob
+92d49ed912d5aa98c653f9409e820bbd82257916cedd666bc493d3446de0b3de  platform-v3/motor-driver-imu/MDI-R3.0/source/motor drivers.kicad_pcb
+ca2df6584d9659bc3e48d84a68b3871f1abe4d188af35852af54063c1952434f  platform-v3/motor-driver-imu/MDI-R3.0/source/motor drivers.kicad_pro
+5e0673fa9fb60c8e9ffc1e8880b0fc5bd9f0a6721261e18fc95fcc6d5508db05  platform-v3/motor-driver-imu/MDI-R3.0/source/motor drivers.kicad_sch
+1c2125b96955bfe7dd44984b7ba3a9e3f93a9ae42b876c5f301e51c9ba2f465f  platform-v3/motor-driver-imu/MDI-R3.0/validation/drc.json
+eaebdb0949a9a2594e8fb90f88fffc85e1d01b4e0c242768275658655a75f941  platform-v3/optical-flow/OFS-R2.2/README.md
+8447f1cbe20126a5302b6c726bec8823123017d68ef2dff333717510aa4054d6  platform-v3/optical-flow/OFS-R2.2/bom/components-from-schematic.csv
+739aa1e06218efe6138a621453bb8f2a89bf88eb91b70d6681b8e5c703a19756  platform-v3/optical-flow/OFS-R2.2/fabrication/supplied-draft/optical tracking sensor paw 3395-B_Cu.gbr
+a074eaa52dabb02b165b23257d3045831d98fd5952e6457fab6d07039d267740  platform-v3/optical-flow/OFS-R2.2/fabrication/supplied-draft/optical tracking sensor paw 3395-B_Mask.gbr
+0dcad578718b98f95451004069dbf7736d4f95577705abcaff768f82eea83197  platform-v3/optical-flow/OFS-R2.2/fabrication/supplied-draft/optical tracking sensor paw 3395-B_Paste.gbr
+37eafed3dc5c371fbd4440e7a5184b4d154080fbe8a3605615b003adb3480c6b  platform-v3/optical-flow/OFS-R2.2/fabrication/supplied-draft/optical tracking sensor paw 3395-B_Silkscreen.gbr
+8152873cd1161ce21df08227e6445d28c8e9806640b79c21123cf0df1bfc6ca4  platform-v3/optical-flow/OFS-R2.2/fabrication/supplied-draft/optical tracking sensor paw 3395-Edge_Cuts.gbr
+68ae9cbb5ed5d9961cf82c37a004f618aa6a0380136e9bd5bf25ab6e57c72d07  platform-v3/optical-flow/OFS-R2.2/fabrication/supplied-draft/optical tracking sensor paw 3395-F_Cu.gbr
+58f5ea27edf781a927df00787bacf908d7c02d7312b08a3a66cebc43d22747e6  platform-v3/optical-flow/OFS-R2.2/fabrication/supplied-draft/optical tracking sensor paw 3395-F_Mask.gbr
+84d1a01e85c8b00afb29f5d76054dbb1b86bcc723d7072379b35581697a0abb8  platform-v3/optical-flow/OFS-R2.2/fabrication/supplied-draft/optical tracking sensor paw 3395-F_Paste.gbr
+161f74993085e27a19fcd52847e295989755bd65e5385286043ce8666e5883a7  platform-v3/optical-flow/OFS-R2.2/fabrication/supplied-draft/optical tracking sensor paw 3395-F_Silkscreen.gbr
+f02ca63e44b59aa4c4c9b00f0f4bbd50c93a44f98f57552f45ec3d243594ef5c  platform-v3/optical-flow/OFS-R2.2/fabrication/supplied-draft/optical tracking sensor paw 3395-NPTH.drl
+412d9f86b15104489959cb963173aaf1b44d292e15b348b92a37e349552944c5  platform-v3/optical-flow/OFS-R2.2/fabrication/supplied-draft/optical tracking sensor paw 3395-PTH.drl
+1207a2d45bede9e8ba02c44a8db102da8e183e752a8d83ae10a8fa856f9fd05e  platform-v3/optical-flow/OFS-R2.2/fabrication/supplied-draft/optical tracking sensor paw 3395-job.gbrjob
+1bd15b8cdea715ff6e697309051e1c0c564221903a4802b9d15f0239fb6b49c0  platform-v3/optical-flow/OFS-R2.2/source/optical tracking sensor paw 3395.kicad_pcb
+f984faeb0092f1574b9dac697c561e9d42f964c53b272896f9be55fcf84e3ba8  platform-v3/optical-flow/OFS-R2.2/source/optical tracking sensor paw 3395.kicad_pro
+ee35bdce9a2ca95c22d91f4a63ac728c3012e05181c0477ed8e4fb15bc69a889  platform-v3/optical-flow/OFS-R2.2/source/optical tracking sensor paw 3395.kicad_sch
+f3142f36bd66498f1aff0c8d05386edac2ae2a181b7939a1a40ffc8e479be1fd  platform-v3/optical-flow/OFS-R2.2/validation/drc.json

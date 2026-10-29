@@ -1,6 +1,6 @@
-# Platform V2 — current modular architecture
+# Platform V2 — working modular prototype
 
-Platform V2 is the current carrier architecture. It is a **system generation**, not a PCB revision number.
+Platform V2 is the working modular carrier baseline; Platform V3 is now in development. It is a **system generation**, not a PCB revision number.
 
 Current boards:
 
@@ -9,6 +9,8 @@ Current boards:
 - **OFS-R2.1.1** — PAW3395 optical-flow sensor
 - **ENC-R1.0** — MA730 wheel encoder
 
-The electronics design is finished. Manufacturing/assembly of the complete carrier is still in progress while remaining parts arrive.
+As of 29 October 2026, the author confirms V2 works, including the motors, BNO086 IMU, and PAW3395 optical-flow sensor. The MA730 magnetic encoders remain **untested because of component-ordering delays**.
 
-Three of the four current V2 board designs have been bench validated; OFS-R2.1.1 remains to be experimentally validated.
+Earlier documentation incorrectly labelled the encoder as validated and optical flow as unvalidated. These status records are corrected; measured positioning accuracy is still to be established.
+
+These files describe V2 hardware. The lower-cost LSM6DS3 belongs to [V3 development](../../docs/platform-v3.md), not to the unchanged MDI-R2.0 board.

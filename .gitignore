@@ -17,5 +17,10 @@ Thumbs.db
 __pycache__/
 *.pyc
 
+# Local test builds
+.build-tools/
+motion-test
+motion-test.exe
+
 # Temporary fabrication exports
 *.tmp

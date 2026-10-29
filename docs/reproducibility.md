@@ -4,7 +4,7 @@ A build or experiment is only reproducible if someone else can determine exactly
 
 For each published result, record:
 
-- Platform V1 or Platform V2;
+- Platform V1, V2, or V3 (development);
 - every PCB board ID/revision;
 - exact fabrication package or commit;
 - component substitutions;

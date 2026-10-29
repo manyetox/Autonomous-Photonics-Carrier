@@ -1,0 +1,156 @@
+{
+  "source_archive": "new files.zip",
+  "import_date": "2026-10-29",
+  "files": [
+    {
+      "archive_path": "V2-motor drivers/motor drivers.kicad_pro",
+      "repository_path": "hardware/platform-v3/motor-driver-imu/MDI-R3.0/source/motor drivers.kicad_pro",
+      "sha256": "ca2df6584d9659bc3e48d84a68b3871f1abe4d188af35852af54063c1952434f"
+    },
+    {
+      "archive_path": "V2-motor drivers/motor drivers.kicad_sch",
+      "repository_path": "hardware/platform-v3/motor-driver-imu/MDI-R3.0/source/motor drivers.kicad_sch",
+      "sha256": "5e0673fa9fb60c8e9ffc1e8880b0fc5bd9f0a6721261e18fc95fcc6d5508db05"
+    },
+    {
+      "archive_path": "V2-motor drivers/motor drivers.kicad_pcb",
+      "repository_path": "hardware/platform-v3/motor-driver-imu/MDI-R3.0/source/motor drivers.kicad_pcb",
+      "sha256": "92d49ed912d5aa98c653f9409e820bbd82257916cedd666bc493d3446de0b3de"
+    },
+    {
+      "archive_path": "V2-motor drivers/V3.0 Gerber/motor drivers-B_Cu.gbr",
+      "repository_path": "hardware/platform-v3/motor-driver-imu/MDI-R3.0/fabrication/supplied-draft/motor drivers-B_Cu.gbr",
+      "sha256": "ea0adfa3b7e0ca0b1d695cdb573b4a6065e354f73f52592b1392b8ab38037a5a"
+    },
+    {
+      "archive_path": "V2-motor drivers/V3.0 Gerber/motor drivers-B_Mask.gbr",
+      "repository_path": "hardware/platform-v3/motor-driver-imu/MDI-R3.0/fabrication/supplied-draft/motor drivers-B_Mask.gbr",
+      "sha256": "2934c8fb330fa6fb291498d4ceb50373f28e3fc9975d7cb2bda551c13fc857f7"
+    },
+    {
+      "archive_path": "V2-motor drivers/V3.0 Gerber/motor drivers-B_Paste.gbr",
+      "repository_path": "hardware/platform-v3/motor-driver-imu/MDI-R3.0/fabrication/supplied-draft/motor drivers-B_Paste.gbr",
+      "sha256": "d315e79de54093e9a66adb2564c7d021e72232dc5355d81cfb1d0c5f5d6a91b1"
+    },
+    {
+      "archive_path": "V2-motor drivers/V3.0 Gerber/motor drivers-B_Silkscreen.gbr",
+      "repository_path": "hardware/platform-v3/motor-driver-imu/MDI-R3.0/fabrication/supplied-draft/motor drivers-B_Silkscreen.gbr",
+      "sha256": "0ed7386928662e6f4ad4de05fb14c70d422356066714a85937f8057989acfb6b"
+    },
+    {
+      "archive_path": "V2-motor drivers/V3.0 Gerber/motor drivers-Edge_Cuts.gbr",
+      "repository_path": "hardware/platform-v3/motor-driver-imu/MDI-R3.0/fabrication/supplied-draft/motor drivers-Edge_Cuts.gbr",
+      "sha256": "40fe916429ab015b366025e58efe1eb12c1ed182cead2d3ca3d453a3ccef8734"
+    },
+    {
+      "archive_path": "V2-motor drivers/V3.0 Gerber/motor drivers-F_Cu.gbr",
+      "repository_path": "hardware/platform-v3/motor-driver-imu/MDI-R3.0/fabrication/supplied-draft/motor drivers-F_Cu.gbr",
+      "sha256": "078c8ee4a963719027875042e49aad9f2ef5f8b59f588e9faa257dd922fc8dd2"
+    },
+    {
+      "archive_path": "V2-motor drivers/V3.0 Gerber/motor drivers-F_Mask.gbr",
+      "repository_path": "hardware/platform-v3/motor-driver-imu/MDI-R3.0/fabrication/supplied-draft/motor drivers-F_Mask.gbr",
+      "sha256": "b734db117f03163350713fca6c42818c52687ffa42214b295fb433fc3fe8dbbb"
+    },
+    {
+      "archive_path": "V2-motor drivers/V3.0 Gerber/motor drivers-F_Paste.gbr",
+      "repository_path": "hardware/platform-v3/motor-driver-imu/MDI-R3.0/fabrication/supplied-draft/motor drivers-F_Paste.gbr",
+      "sha256": "fbc8cfbe81563416723d34679b587a7c6e6ca5d8c59592e6dc335f4b09b8be83"
+    },
+    {
+      "archive_path": "V2-motor drivers/V3.0 Gerber/motor drivers-F_Silkscreen.gbr",
+      "repository_path": "hardware/platform-v3/motor-driver-imu/MDI-R3.0/fabrication/supplied-draft/motor drivers-F_Silkscreen.gbr",
+      "sha256": "2f1ef20709a0f9be8d430ce8ce307cd606c75ce811d284848acccb76b993a9d1"
+    },
+    {
+      "archive_path": "V2-motor drivers/V3.0 Gerber/motor drivers-job.gbrjob",
+      "repository_path": "hardware/platform-v3/motor-driver-imu/MDI-R3.0/fabrication/supplied-draft/motor drivers-job.gbrjob",
+      "sha256": "4180cd6a5953b02a0386edd2665c294fa8043fd8cfc2d21bb9ce5c494f752f48"
+    },
+    {
+      "archive_path": "V2-motor drivers/V3.0 Gerber/motor drivers-NPTH.drl",
+      "repository_path": "hardware/platform-v3/motor-driver-imu/MDI-R3.0/fabrication/supplied-draft/motor drivers-NPTH.drl",
+      "sha256": "1acd3ceb6e83f29bf1080c6c55fe4d53c13a02c621ce2f05def6c83acca7d5b7"
+    },
+    {
+      "archive_path": "V2-motor drivers/V3.0 Gerber/motor drivers-PTH.drl",
+      "repository_path": "hardware/platform-v3/motor-driver-imu/MDI-R3.0/fabrication/supplied-draft/motor drivers-PTH.drl",
+      "sha256": "aa52ce695f22ff3ff18b3a1184fdc7b519d4ef1574a785e700b7e9e83e38245e"
+    },
+    {
+      "archive_path": "V2-optic sensor/optical tracking sensor paw 3395/optical tracking sensor paw 3395.kicad_pro",
+      "repository_path": "hardware/platform-v3/optical-flow/OFS-R2.2/source/optical tracking sensor paw 3395.kicad_pro",
+      "sha256": "f984faeb0092f1574b9dac697c561e9d42f964c53b272896f9be55fcf84e3ba8"
+    },
+    {
+      "archive_path": "V2-optic sensor/optical tracking sensor paw 3395/optical tracking sensor paw 3395.kicad_sch",
+      "repository_path": "hardware/platform-v3/optical-flow/OFS-R2.2/source/optical tracking sensor paw 3395.kicad_sch",
+      "sha256": "ee35bdce9a2ca95c22d91f4a63ac728c3012e05181c0477ed8e4fb15bc69a889"
+    },
+    {
+      "archive_path": "V2-optic sensor/optical tracking sensor paw 3395/optical tracking sensor paw 3395.kicad_pcb",
+      "repository_path": "hardware/platform-v3/optical-flow/OFS-R2.2/source/optical tracking sensor paw 3395.kicad_pcb",
+      "sha256": "1bd15b8cdea715ff6e697309051e1c0c564221903a4802b9d15f0239fb6b49c0"
+    },
+    {
+      "archive_path": "V2-optic sensor/optical tracking sensor paw 3395/paw3395-gerber-v2.2/optical tracking sensor paw 3395-B_Cu.gbr",
+      "repository_path": "hardware/platform-v3/optical-flow/OFS-R2.2/fabrication/supplied-draft/optical tracking sensor paw 3395-B_Cu.gbr",
+      "sha256": "739aa1e06218efe6138a621453bb8f2a89bf88eb91b70d6681b8e5c703a19756"
+    },
+    {
+      "archive_path": "V2-optic sensor/optical tracking sensor paw 3395/paw3395-gerber-v2.2/optical tracking sensor paw 3395-B_Mask.gbr",
+      "repository_path": "hardware/platform-v3/optical-flow/OFS-R2.2/fabrication/supplied-draft/optical tracking sensor paw 3395-B_Mask.gbr",
+      "sha256": "a074eaa52dabb02b165b23257d3045831d98fd5952e6457fab6d07039d267740"
+    },
+    {
+      "archive_path": "V2-optic sensor/optical tracking sensor paw 3395/paw3395-gerber-v2.2/optical tracking sensor paw 3395-B_Paste.gbr",
+      "repository_path": "hardware/platform-v3/optical-flow/OFS-R2.2/fabrication/supplied-draft/optical tracking sensor paw 3395-B_Paste.gbr",
+      "sha256": "0dcad578718b98f95451004069dbf7736d4f95577705abcaff768f82eea83197"
+    },
+    {
+      "archive_path": "V2-optic sensor/optical tracking sensor paw 3395/paw3395-gerber-v2.2/optical tracking sensor paw 3395-B_Silkscreen.gbr",
+      "repository_path": "hardware/platform-v3/optical-flow/OFS-R2.2/fabrication/supplied-draft/optical tracking sensor paw 3395-B_Silkscreen.gbr",
+      "sha256": "37eafed3dc5c371fbd4440e7a5184b4d154080fbe8a3605615b003adb3480c6b"
+    },
+    {
+      "archive_path": "V2-optic sensor/optical tracking sensor paw 3395/paw3395-gerber-v2.2/optical tracking sensor paw 3395-Edge_Cuts.gbr",
+      "repository_path": "hardware/platform-v3/optical-flow/OFS-R2.2/fabrication/supplied-draft/optical tracking sensor paw 3395-Edge_Cuts.gbr",
+      "sha256": "8152873cd1161ce21df08227e6445d28c8e9806640b79c21123cf0df1bfc6ca4"
+    },
+    {
+      "archive_path": "V2-optic sensor/optical tracking sensor paw 3395/paw3395-gerber-v2.2/optical tracking sensor paw 3395-F_Cu.gbr",
+      "repository_path": "hardware/platform-v3/optical-flow/OFS-R2.2/fabrication/supplied-draft/optical tracking sensor paw 3395-F_Cu.gbr",
+      "sha256": "68ae9cbb5ed5d9961cf82c37a004f618aa6a0380136e9bd5bf25ab6e57c72d07"
+    },
+    {
+      "archive_path": "V2-optic sensor/optical tracking sensor paw 3395/paw3395-gerber-v2.2/optical tracking sensor paw 3395-F_Mask.gbr",
+      "repository_path": "hardware/platform-v3/optical-flow/OFS-R2.2/fabrication/supplied-draft/optical tracking sensor paw 3395-F_Mask.gbr",
+      "sha256": "58f5ea27edf781a927df00787bacf908d7c02d7312b08a3a66cebc43d22747e6"
+    },
+    {
+      "archive_path": "V2-optic sensor/optical tracking sensor paw 3395/paw3395-gerber-v2.2/optical tracking sensor paw 3395-F_Paste.gbr",
+      "repository_path": "hardware/platform-v3/optical-flow/OFS-R2.2/fabrication/supplied-draft/optical tracking sensor paw 3395-F_Paste.gbr",
+      "sha256": "84d1a01e85c8b00afb29f5d76054dbb1b86bcc723d7072379b35581697a0abb8"
+    },
+    {
+      "archive_path": "V2-optic sensor/optical tracking sensor paw 3395/paw3395-gerber-v2.2/optical tracking sensor paw 3395-F_Silkscreen.gbr",
+      "repository_path": "hardware/platform-v3/optical-flow/OFS-R2.2/fabrication/supplied-draft/optical tracking sensor paw 3395-F_Silkscreen.gbr",
+      "sha256": "161f74993085e27a19fcd52847e295989755bd65e5385286043ce8666e5883a7"
+    },
+    {
+      "archive_path": "V2-optic sensor/optical tracking sensor paw 3395/paw3395-gerber-v2.2/optical tracking sensor paw 3395-job.gbrjob",
+      "repository_path": "hardware/platform-v3/optical-flow/OFS-R2.2/fabrication/supplied-draft/optical tracking sensor paw 3395-job.gbrjob",
+      "sha256": "1207a2d45bede9e8ba02c44a8db102da8e183e752a8d83ae10a8fa856f9fd05e"
+    },
+    {
+      "archive_path": "V2-optic sensor/optical tracking sensor paw 3395/paw3395-gerber-v2.2/optical tracking sensor paw 3395-NPTH.drl",
+      "repository_path": "hardware/platform-v3/optical-flow/OFS-R2.2/fabrication/supplied-draft/optical tracking sensor paw 3395-NPTH.drl",
+      "sha256": "f02ca63e44b59aa4c4c9b00f0f4bbd50c93a44f98f57552f45ec3d243594ef5c"
+    },
+    {
+      "archive_path": "V2-optic sensor/optical tracking sensor paw 3395/paw3395-gerber-v2.2/optical tracking sensor paw 3395-PTH.drl",
+      "repository_path": "hardware/platform-v3/optical-flow/OFS-R2.2/fabrication/supplied-draft/optical tracking sensor paw 3395-PTH.drl",
+      "sha256": "412d9f86b15104489959cb963173aaf1b44d292e15b348b92a37e349552944c5"
+    }
+  ]
+}

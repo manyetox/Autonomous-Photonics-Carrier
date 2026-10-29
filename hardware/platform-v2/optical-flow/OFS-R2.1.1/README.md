@@ -2,7 +2,7 @@
 
 **Platform:** V2  
 **Board revision:** OFS-R2.1.1  
-**Status:** current design; **not yet experimentally validated**  
+**Status:** **working, author-confirmed** (29 October 2026)<br>
 **PCB:** 2 layers, approximately 19.3 × 24.0 mm
 
 ## Function
@@ -19,6 +19,6 @@ This board mounts a bottom-facing PAW3395 optical tracking sensor so the carrier
 
 The current schematic specifies **R3 = 2 MΩ**.
 
-This board should not be described as working until the 1.8 V rail, SPI initialisation, motion data, lens height, and calibrated displacement have been tested on the assembled hardware.
+The author has verified the PAW3395 on the prototype. This corrects the earlier unvalidated status. Surface sensitivity, lens height, displacement calibration, and repeatability still need documented quantitative results.
 
 > **Image placeholder:** I will add a photograph showing the PAW3395 lens and underside mounting here after validation.

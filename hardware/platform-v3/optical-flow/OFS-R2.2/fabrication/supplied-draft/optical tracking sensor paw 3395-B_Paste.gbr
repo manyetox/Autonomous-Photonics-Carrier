@@ -1,0 +1,68 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,10.0.7*%
+%TF.CreationDate,2026-10-28T13:09:38+00:00*%
+%TF.ProjectId,optical tracking sensor paw 3395,6f707469-6361-46c2-9074-7261636b696e,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Paste,Bot*%
+%TF.FilePolarity,Positive*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 10.0.7) date 2026-10-28 13:09:38*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+G04 Aperture macros list*
+%AMRoundRect*
+0 Rectangle with rounded corners*
+0 $1 Rounding radius*
+0 $2 $3 $4 $5 $6 $7 $8 $9 X,Y pos of 4 corners*
+0 Add a 4 corners polygon primitive as box body*
+4,1,4,$2,$3,$4,$5,$6,$7,$8,$9,$2,$3,0*
+0 Add four circle primitives for the rounded corners*
+1,1,$1+$1,$2,$3*
+1,1,$1+$1,$4,$5*
+1,1,$1+$1,$6,$7*
+1,1,$1+$1,$8,$9*
+0 Add four rect primitives between the rounded corners*
+20,1,$1+$1,$2,$3,$4,$5,0*
+20,1,$1+$1,$4,$5,$6,$7,0*
+20,1,$1+$1,$6,$7,$8,$9,0*
+20,1,$1+$1,$8,$9,$2,$3,0*%
+G04 Aperture macros list end*
+%ADD10RoundRect,0.250000X0.475000X-0.250000X0.475000X0.250000X-0.475000X0.250000X-0.475000X-0.250000X0*%
+%ADD11RoundRect,0.225000X-0.250000X0.225000X-0.250000X-0.225000X0.250000X-0.225000X0.250000X0.225000X0*%
+%ADD12RoundRect,0.225000X0.250000X-0.225000X0.250000X0.225000X-0.250000X0.225000X-0.250000X-0.225000X0*%
+%ADD13RoundRect,0.225000X0.225000X0.250000X-0.225000X0.250000X-0.225000X-0.250000X0.225000X-0.250000X0*%
+%ADD14RoundRect,0.225000X-0.225000X-0.250000X0.225000X-0.250000X0.225000X0.250000X-0.225000X0.250000X0*%
+G04 APERTURE END LIST*
+D10*
+%TO.C,C1*%
+X105075000Y-98575000D03*
+X105075000Y-96675000D03*
+%TD*%
+D11*
+%TO.C,C5*%
+X105100000Y-100600000D03*
+X105100000Y-102150000D03*
+%TD*%
+D12*
+%TO.C,C4*%
+X105100000Y-94850000D03*
+X105100000Y-93300000D03*
+%TD*%
+D13*
+%TO.C,C9*%
+X103925000Y-111075000D03*
+X102375000Y-111075000D03*
+%TD*%
+D14*
+%TO.C,C11*%
+X103225000Y-107475000D03*
+X104775000Y-107475000D03*
+%TD*%
+D13*
+%TO.C,C10*%
+X105475000Y-109350000D03*
+X103925000Y-109350000D03*
+%TD*%
+M02*

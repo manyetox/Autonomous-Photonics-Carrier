@@ -2,13 +2,17 @@
 
 This file intentionally records unresolved items rather than hiding them.
 
-## System integration is not complete
+## Working V2; V3 in development
 
-Platform V2 is a finished electronics design but the physical carrier is still being assembled. Full autonomous operation has not yet been demonstrated in this repository release.
+The author confirms V2 works, including motors, BNO086 and PAW3395. Full autonomous operation and measured positioning performance remain to be demonstrated. V3 adopts the lower-cost LSM6DS3 and requires separate hardware/firmware validation.
 
-## PAW3395 board remains unvalidated
+## Magnetic encoders remain untested
 
-OFS-R2.1.1 is electrically simple relative to the larger boards, but it should still be treated as **unvalidated until measured**. Optical tracking sensors are sensitive to lens geometry, surface, height, sensor initialisation, and motion conditions.
+MA730 encoder testing is delayed by component-ordering issues. PAW3395 optical flow has been verified, but its calibration and surface/height/speed sensitivity still need quantitative documentation.
+
+## Power reliability remains a development issue
+
+The author reported three regulator failures in the 27 October component discussion. Their cause and any change to the MCU/IMU/motor-board 3.3 V distribution have not been confirmed. Working V2 bring-up must not be interpreted as resolved power reliability.
 
 ## Peripheral-to-ESP32 mapping needs final system confirmation
 

@@ -1,0 +1,18 @@
+Reference,Value,Footprint,Datasheet
+C2,4.7uF,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,
+C7,0.1uF,Capacitor_SMD:C_0603_1608Metric,
+C9,0.1uF,Capacitor_SMD:C_0603_1608Metric,
+C21,0.1u,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,
+C25,10u,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,
+C26,100u,Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,
+C27,100n,Capacitor_SMD:C_0603_1608Metric,
+C28,100n,Capacitor_SMD:C_0603_1608Metric,
+J2,Conn_01x12_Socket,Connector_PinHeader_1.00mm:PinHeader_1x12_P1.00mm_Vertical,
+J4,Screw_Terminal_01x02,Library-kicad:power pad dual,
+J5,Screw_Terminal_01x02,Library-kicad:power pad dual,
+J6,Screw_Terminal_01x02,Library-kicad:power pad dual,
+R14,10k,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,
+R23,47,Resistor_SMD:R_0603_1608Metric,
+R24,47,Resistor_SMD:R_0603_1608Metric,
+TC78H651FNG1,~,Package_SO:TSSOP-16_4.4x5mm_P0.65mm,
+U1,LSM6DS3,Package_LGA:LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y,https://www.st.com/resource/en/datasheet/lsm6ds3tr-c.pdf

@@ -47,6 +47,12 @@ The PAW3395 path was chosen after looking for a compact, actively available opti
 
 Early encoder exploration considered discrete magnets and Hall sensors. The current board instead uses an MA730 magnetic angle encoder. That moves the design from sparse edge counting toward direct angular measurement and also exposes A/B/Z and diagnostic outputs for alternative experiments.
 
+## Platform V3: lower-cost inertial sensing
+
+V2 is now a working prototype, including motors, BNO086 and PAW3395; magnetic encoders remain untested while components are being ordered. V3 development replaces the BNO086 with **STMicroelectronics LSM6DS3**, as shown in the 27 October schematic discussion. The motivation is reduced component cost; no quantified cost saving or V3 performance result is claimed yet.
+
+V3 requires a revised IMU circuit and firmware driver/orientation estimator. Keep the V2 sources as a reproducible baseline and track the imported MDI-R3.0 and OFS-R2.2 development revisions separately. See [V3 development notes](platform-v3.md).
+
 ## Academic interpretation
 
 V1 and V2 should be treated as different experimental hardware architectures, not as a claim that V2 is already proven superior in measured localisation performance. V2 is preferred because of engineering modularity and the current research direction; quantitative comparison requires data.

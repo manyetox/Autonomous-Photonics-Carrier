@@ -6,6 +6,10 @@ The carrier is a mobile embedded platform intended to support reconfigurable fre
 
 The design deliberately separates **coarse mobile positioning** from **fine optical alignment**. The mobile base should move an element close enough and repeatably enough that an independent fine stage or optical-feedback loop can complete alignment when the experiment requires it.
 
+## Current development status
+
+As of 29 October 2026, V2 works with motors, BNO086 and PAW3395; MA730 encoders remain untested because ordering is delayed. V3 replaces BNO086 with the lower-cost STMicroelectronics LSM6DS3 and is in development. The board partitioning below describes the published V2 files; see [V3 development notes](platform-v3.md) for the change.
+
 ## Platform V2 sensing model
 
 No single low-cost sensor is expected to remain accurate under every condition. The V2 architecture therefore uses complementary information:

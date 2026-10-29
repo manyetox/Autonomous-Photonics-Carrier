@@ -8,7 +8,9 @@
 4. Check footprints, connector orientation, board stack-up, copper layers, drill files, and outline in the fabricator viewer.
 5. Re-check the BOM against current component datasheets and stock. The included CSV BOMs are extraction aids, not purchasing authority.
 
-## Current fabrication targets
+## Published fabrication targets
+
+These packages are V1/V2 files. V3 source and supplied drafts are available under `hardware/platform-v3/`, with outstanding DRC errors. A V2 BNO086 motor/IMU package must not be fabricated as an LSM6DS3 V3 design. See [V3 notes](platform-v3.md).
 
 | Board | Current fab revision | Layers | Approx. outline |
 |---|---|---:|---:|
@@ -35,7 +37,7 @@
 
 ### PAW3395 optical-flow board
 
-This is currently the only V2 board not experimentally validated, so it deserves the most cautious bring-up.
+The author has verified the PAW3395 on V2. Repeat the following checks for every newly assembled board.
 
 - Check the 1.8 V rail before installing/energising the PAW3395 if the assembly process allows.
 - Verify sensor orientation and the optical lens/mechanical height.
@@ -46,6 +48,8 @@ This is currently the only V2 board not experimentally validated, so it deserves
 > **Image placeholder — PAW3395 assembly:** I will add a close-up showing the sensor/lens spacing and the underside mounting here.
 
 ### MA730 encoder
+
+This subsystem is still untested because the required IC ordering is delayed. The requested device is MA730GQ-P.
 
 - The magnetic target, air gap, centring, and alignment are as important as the PCB.
 - Validate angle continuity through a full revolution before using data for odometry.

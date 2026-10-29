@@ -1,6 +1,6 @@
 # Preliminary Platform V2 firmware scaffold
 
-This is a **starting point**, not finished autonomous-carrier firmware.
+This is the original **starting point**, retained for history. For the latest published V2 firmware, see [Agent v2.4](../platform-v2/agent-v2.4/README.md). This scaffold is not finished autonomous-carrier firmware.
 
 It is intentionally conservative:
 

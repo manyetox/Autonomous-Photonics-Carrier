@@ -7,7 +7,8 @@ This project uses **two independent version namespaces**. Keeping them separate 
 A **Platform** version describes the overall system architecture.
 
 - **Platform V1** — integrated/monolithic carrier electronics.
-- **Platform V2** — modular carrier electronics; current architecture.
+- **Platform V2** — working modular carrier with BNO086; magnetic encoders untested.
+- **Platform V3** — next generation in development, adopting the lower-cost STMicroelectronics LSM6DS3. See [`docs/platform-v3.md`](docs/platform-v3.md).
 
 A daughterboard revision does **not** create a new platform generation.
 
@@ -24,6 +25,8 @@ Each PCB has its own identifier:
 | **ENC-R1.0** | Wheel Encoder | Platform V2 | Yes |
 
 Therefore, **OFS-R2.1.1 is not “Platform V2.1.1.”** It is board revision 2.1.1 within Platform V2.
+
+V2 board IDs above identify the published V2 hardware. They must not be relabelled as V3 merely because development has started. The supplied V3 development snapshot adds **MDI-R3.0** (PCB marked V3.0) and **OFS-R2.2** (PCB marked V2.2). Their supplied fabrication outputs are drafts with outstanding DRC errors; see `hardware/platform-v3/README.md`. Firmware version 2.4 is a software version, not a platform generation.
 
 ## Historical fabrication outputs
 

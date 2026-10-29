@@ -5,7 +5,7 @@ The host-side autonomy and experiment-control software is still planned rather t
 ## Planned modules
 
 - **Global perception:** overhead camera calibration, fiducial/AprilTag detection, carrier identification, and global x/y/yaw pose.
-- **Pose fusion:** combine camera, wheel angle, PAW3395 relative motion, and BNO086 information with explicit uncertainty handling.
+- **Pose fusion:** combine camera, wheel angle, PAW3395 relative motion, and BNO086 (V2) or LSM6DS3 (V3) information with explicit uncertainty handling.
 - **Motion planning/control:** convert target table poses into carrier trajectories while handling obstacles and multiple carriers.
 - **Experiment model:** represent optical components, carrier identities, and desired experimental topology.
 - **Optical feedback:** use detector/camera/experiment measurements to refine physical alignment.

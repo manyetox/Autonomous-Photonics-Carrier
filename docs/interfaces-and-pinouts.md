@@ -2,6 +2,8 @@
 
 These tables are extracted from the current uploaded KiCad PCB net names. They document what the boards expose without inventing an unverified system-level harness mapping.
 
+For the changed **V3 MDI-R3.0 12-pin connector**, see the [V3 pinout](platform-v3.md). The MDI-R2.0 table below remains specific to V2.
+
 ## MB-R2.1 mainboard
 
 ### J2 — 13-pin expansion header

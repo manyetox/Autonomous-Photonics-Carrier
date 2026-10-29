@@ -4,7 +4,7 @@
 
 This repository contains the electronics, fabrication files, preliminary embedded firmware, and research documentation for my UCL Electrical and Electronic Engineering third-year BEng project. The carrier is intended to move standard optical hardware around a tabletop, estimate its own motion from complementary sensors, and ultimately support closed-loop optical experiment setup and alignment.
 
-> **Project status — September 2026:** the **Platform V2 hardware design is finished**. Manufacturing and assembly are **partially complete and awaiting remaining parts**. The V2 main controller, motor/IMU board, and MA730 wheel-encoder board have been bench validated. The PAW3395 optical-flow board is the only current board that has not yet been experimentally validated. Full multi-sensor autonomous operation and the experiment-control software are still under development.
+> **Project status — 29 October 2026:** **Platform V2 works**, including the motors, BNO086 IMU, and PAW3395 optical-flow sensor. The **MA730 magnetic encoders remain untested because of component-ordering delays**. **Platform V3 is now in development**, replacing the BNO086 with a lower-cost **STMicroelectronics LSM6DS3**. V3 hardware and firmware validation, full multi-sensor autonomy, and quantitative positioning experiments remain in progress. See the [V3 development notes](docs/platform-v3.md).
 
 <p align="center">
   <img src="media/V2-real-media.jpeg" width="42%" alt="Partially assembled Platform V2 carrier — front view">
@@ -12,16 +12,17 @@ This repository contains the electronics, fabrication files, preliminary embedde
   <img src="media/V2-real-back-media.jpeg" width="42%" alt="Partially assembled Platform V2 carrier — rear view">
 </p>
 
-<p align="center"><em>Current Platform V2 hardware during assembly. Front and rear views of the mobile carrier with the optical-post interface installed. The mechanical and electrical design is complete, while final assembly is still awaiting the remaining parts.</em></p>
+<p align="center"><em>Platform V2 photographed during assembly. V2 has since been reported working; magnetic-encoder testing is still awaiting components. These photographs show V2, not the developing V3.</em></p>
 
 ## Read this first: platform versions are not board revisions
 
-There are only **two photonics-carrier platform generations** in this repository:
+The carrier now has **three platform generations**, with V3 under development:
 
 | System generation | Meaning | Status |
 |---|---|---|
 | **Platform V1** | First integrated/monolithic autonomous-photonics carrier electronics | Historical, validated, superseded by V2 |
-| **Platform V2** | Current modular carrier architecture | Current design; system assembly in progress |
+| **Platform V2** | Modular carrier with BNO086 IMU | Working prototype; magnetic encoders still untested |
+| **Platform V3** | Next carrier generation with lower-cost LSM6DS3 IMU | In development; see [V3 notes](docs/platform-v3.md) |
 
 The numbers on individual V2 PCBs are **board-local revisions**, not new carrier generations. For example, **OFS-R2.1.1** means *Optical-Flow Sensor board revision 2.1.1*; it is still part of **Platform V2**. The same applies to **MB-R2.1**, **MDI-R2.0**, and **ENC-R1.0**.
 
@@ -43,7 +44,7 @@ The current evaluation is organised around six questions:
 
 1. **Coarse positioning accuracy and repeatability** — How accurately can a carrier reach a commanded planar pose \((x, y, \psi)\), and how closely can it return to that pose over repeated trials? How are the results affected by approach direction, travel distance, wheel slip, payload, and table-surface conditions?
 2. **Stationary stability** — How much translational and angular drift occurs while the carrier remains stationary on its wheels? How are the results affected by motor-hold strategy, payload centre of mass, battery voltage, and measurement duration?
-3. **Localisation and sensor fusion** — What accuracy and robustness can be achieved using the MA730 wheel encoders, PAW3395 optical-flow sensor, BNO086 IMU, and planned overhead visual fiducials individually and in combination? In particular, can the fused estimate remain useful during wheel slip, short visual occlusion, and accumulated odometry drift?
+3. **Localisation and sensor fusion** — What accuracy and robustness can be achieved using the MA730 wheel encoders, PAW3395 optical-flow sensor, BNO086 (V2) or LSM6DS3 (V3) IMU, and planned overhead visual fiducials individually and in combination? In particular, can the fused estimate remain useful during wheel slip, short visual occlusion, and accumulated odometry drift?
 4. **Closed-loop optical alignment and recovery** — Can optical feedback compensate for the residual mechanical error remaining after mobile positioning? What alignment error, convergence time, capture range, success rate, and recovery behaviour can be achieved?
 5. **Experiment reconstruction and operating range** — Can one or more carriers reconstruct the same optical configuration on separate occasions and reproduce the same measurement? For which beam sizes, propagation distances, wavelengths, and classes of tabletop experiment is the achieved positioning performance sufficient?
 6. **Compatibility, cost, and scalability** — Can the platform carry standard optical posts and common holders without permanent modification? What payload, centre-of-mass height, battery runtime, and cost per carrier are practical, and how does operation change when multiple carriers share the same workspace?
@@ -52,7 +53,7 @@ These questions are intended to map directly onto measurable experiments. Result
 
 > **Design-evolution note:** the earliest research framing included an on-carrier screw-and-flexure fine-positioning stage and UWB ranging. Those ideas belong to the earlier design direction and are **not core Platform V2 subsystems**. Platform V2 instead focuses on a modular mobile carrier using wheel encoding, bottom optical flow, inertial sensing, planned overhead visual localisation, and later optical feedback. Fine optomechanical correction can be evaluated as a separate layer if required.
 
-## Current Platform V2 architecture
+## Working Platform V2 architecture
 
 ```mermaid
 flowchart LR
@@ -85,16 +86,20 @@ The V2 redesign deliberately separates functions across small PCBs. This makes t
 |---|---|---|---|---|
 | **MB-R2.1** | Main controller / power / breakout | ESP32-WROOM-32UE, NCP186 3.3 V LDO | 4-layer, ~25 × 27.1 mm | **Validated** |
 | **MDI-R2.0** | Dual motor drive + IMU | TC78H651FGN, BNO086 | 4-layer, ~25 × 27 mm | **Validated** |
-| **OFS-R2.1.1** | Bottom optical-flow sensing | PAW3395, AP2127K-1.8 | 2-layer, ~19.3 × 24.0 mm | **Not yet experimentally validated** |
-| **ENC-R1.0** | Wheel-angle sensing | MA730 magnetic encoder | 2-layer, ~20 × 16.8 mm | **Validated** |
+| **OFS-R2.1.1** | Bottom optical-flow sensing | PAW3395, AP2127K-1.8 | 2-layer, ~19.3 × 24.0 mm | **Working, author-confirmed** |
+| **ENC-R1.0** | Wheel-angle sensing | MA730 magnetic encoder | 2-layer, ~20 × 16.8 mm | **Untested; component ordering delayed** |
 
 <p align="center">
   <img src="media/V2-media.png" width="60%" alt="Platform V2 mechanical and electronics render">
 </p>
 
-<p align="center"><em>Platform V2 design render. The current generation uses a modular electronics architecture so sensing, motor control, and the main controller can be manufactured, debugged, and revised independently.</em></p>
+<p align="center"><em>Platform V2 design render. V2 uses a modular electronics architecture so sensing, motor control, and the main controller can be manufactured, debugged, and revised independently.</em></p>
 
 ## Design evolution
+
+### Platform V3 — lower-cost IMU, in development
+
+V3 replaces the V2 BNO086 with the **STMicroelectronics LSM6DS3**, identified in the latest schematic discussion. This is a six-axis accelerometer/gyroscope; V3 needs a matching driver and host-side orientation estimation instead of the BNO086 rotation-vector interface. The supplied [V3 hardware](hardware/platform-v3/README.md) includes the two-layer MDI-R3.0 motor/IMU board and OFS-R2.2 optical board. KiCad checks found manufacturing-rule errors, so their supplied Gerbers remain development drafts. See [V3 development notes](docs/platform-v3.md).
 
 ### Platform V1 — integrated architecture
 
@@ -140,8 +145,12 @@ Autonomous-Photonics-Carrier/
 │   │   ├── motor-driver-imu/MDI-R2.0/
 │   │   ├── optical-flow/OFS-R2.1.1/
 │   │   └── wheel-encoder/ENC-R1.0/
+│   ├── platform-v3/                 # MDI-R3.0 and OFS-R2.2 development files
 │   └── legacy-reference/            # Pre-project robot electronics; not a platform version
-├── firmware/preliminary/            # Safe preliminary ESP32 firmware scaffold
+├── firmware/
+│   ├── platform-v2/agent-v2.4/       # Latest local V2 firmware and client
+│   ├── platform-v3/                  # LSM6DS3 firmware pending
+│   └── preliminary/                  # Original scaffold retained
 ├── software/                        # Planned host-side autonomy / experiment software
 ├── docs/                            # Architecture, methods, validation, manufacturing notes
 ├── data/                            # Experimental-data conventions; no results claimed yet
@@ -160,6 +169,8 @@ Start here:
 
 - [Platform V1 hardware](hardware/platform-v1/README.md)
 - [Platform V2 hardware](hardware/platform-v2/README.md)
+- [Platform V3 development hardware](hardware/platform-v3/README.md)
+- [V3 hardware import checks](docs/hardware-import-validation.md)
 - [V2 mainboard — MB-R2.1](hardware/platform-v2/mainboard/MB-R2.1/README.md)
 - [Motor/IMU — MDI-R2.0](hardware/platform-v2/motor-driver-imu/MDI-R2.0/README.md)
 - [Optical flow — OFS-R2.1.1](hardware/platform-v2/optical-flow/OFS-R2.1.1/README.md)
@@ -168,7 +179,11 @@ Start here:
 
 The CSV BOMs in the board folders were auto-extracted from the KiCad PCB files to make review easier. **They are not a substitute for checking the schematic and part datasheets before ordering.**
 
-## Preliminary firmware
+## Published V2 firmware
+
+The latest local [Agent v2.4 package](firmware/platform-v2/agent-v2.4/README.md) is included for **ESP32 + BNO086 + PAW3395**. It includes web controls, independent motor factors, level/origin calibration, relative positioning, telemetry and an Open WebUI client. ESP32 compilation and host checks are documented with the package; the author’s working-V2 report does not validate every automated action. [V3 LSM6DS3 firmware remains pending](firmware/platform-v3/README.md).
+
+## Original preliminary firmware
 
 A deliberately conservative PlatformIO/Arduino scaffold is included in [`firmware/preliminary`](firmware/preliminary/README.md). It establishes the intended embedded-software structure, status reporting, motor-control abstraction, serial command interface, and placeholders for BNO086, PAW3395, and MA730 integration.
 
@@ -182,11 +197,11 @@ The intended estimation hierarchy is complementary rather than relying on a sing
 
 1. **Wheel angle / odometry:** MA730 magnetic encoders provide direct rotational information at the drivetrain.
 2. **Bottom optical flow:** PAW3395 provides high-rate relative motion against the tabletop and can expose wheel-slip/odometry disagreement.
-3. **IMU:** BNO086 provides inertial orientation/motion information and short-term dynamic context.
+3. **IMU:** BNO086 provides the V2 inertial input; V3 adopts LSM6DS3 acceleration and angular-rate data with orientation estimation in firmware.
 4. **Overhead fiducials:** a camera observing AprilTags or similar fiducials is planned as a global absolute pose reference and recovery mechanism.
 5. **Optical feedback:** experimental signals can eventually be incorporated into the control loop so the carrier optimises the *optical result*, not only geometric pose.
 
-Sensor fusion, global localisation, multi-carrier coordination, and optical-feedback optimisation are **planned software work**; they are not claimed as completed results in this repository.
+Prototype IMU/optical-flow positioning firmware has been developed in the project. Global localisation, encoder integration, multi-carrier coordination, and optical-feedback optimisation remain development work; measured positioning performance has not yet been published.
 
 ## Research measurements this platform is intended to support
 

@@ -4,7 +4,7 @@ Coordinate Platform V2 photonics carriers: inspect, move, verify and log. Choose
 
 ## Current capability
 
-This checkout contains preliminary ESP32 firmware: sensor drivers are stubs and motor GPIO mappings are disabled. Read `firmware/preliminary/README.md` and `software/README.md`. Never treat placeholders as measurements.
+This checkout includes the V2 Agent v2.4 package in `firmware/platform-v2/agent-v2.4/`; read its README, START_HERE.md and API.md for actual BNO086/PAW3395 capabilities and limits. V3 LSM6DS3 firmware is pending. The older `firmware/preliminary/` scaffold remains available; the serial commands below apply only to that scaffold. Never treat its placeholders as measurements.
 
 ### Existing tools
 

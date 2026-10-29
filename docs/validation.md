@@ -1,16 +1,19 @@
 # Validation status and test plan
 
-## Current evidence level
+## Current evidence level — 29 October 2026
+
+Status below incorporates the author's project updates. V2 is reported working, including the motors, IMU, and optical-flow sensor; no new physical tests were performed as part of this repository update.
 
 | Item | Current status | Meaning |
 |---|---|---|
 | Platform V1 integrated PCB | **Validated** | Historical board has been built/bench checked; retained as superseded hardware |
 | MB-R2.1 mainboard | **Validated** | Controller/power board has been bench validated |
 | MDI-R2.0 motor/IMU board | **Validated** | Board has been bench validated |
-| ENC-R1.0 wheel encoder | **Validated** | Board has been bench validated |
-| OFS-R2.1.1 PAW3395 board | **Unvalidated** | Design/fabrication files complete; experimental verification still required |
-| Full Platform V2 carrier | **Integration in progress** | Design finished; manufacturing/assembly semi-finished and awaiting parts |
-| Sensor-fusion autonomy | **Not yet validated** | Firmware/software still to be developed |
+| ENC-R1.0 wheel encoder | **Untested** | MA730 component ordering is delayed; encoder operation has not been verified |
+| OFS-R2.1.1 PAW3395 board | **Working, author-confirmed** | Optical sensor verified on the prototype; quantitative calibration/performance data still to be published |
+| Platform V2 prototype | **Working, author-confirmed** | Motors, BNO086 and PAW3395 operate; magnetic encoders remain untested |
+| Platform V3 / LSM6DS3 | **In development** | Lower-cost IMU selected; V3 bring-up and performance validation pending |
+| Sensor-fusion autonomy | **Not yet validated** | Prototype IMU/optical-flow positioning developed; encoder integration and full autonomy remain unvalidated |
 | Autonomous optical alignment | **Not yet validated** | Experimental goal, not a current result |
 
 “Validated” here means practical board-level bring-up/bench validation. It does **not** mean that final localisation accuracy, drift, lifetime, EMC, temperature range, or optical-alignment performance has been fully characterised.
@@ -51,6 +54,15 @@
 - magnetic field status (MGL/MGH);
 - A/B/Z output validity if used;
 - error versus magnet offset and air gap.
+
+## V3 bring-up still required
+
+- Resolve the documented [V3 DRC errors](hardware-import-validation.md); the source import is not fabrication approval.
+- Verify the LSM6DS3 identity, SPI communication, acceleration and angular-rate streams.
+- Check mounting axes, stationary gyro bias, orientation estimation and drift.
+- Verify sensor freshness and motor-stop behaviour after sensor or communication loss.
+- Recheck power-rail stability under motor load; regulator failures were reported during development and their cause is unresolved.
+- Test MA730 encoders after the required parts arrive.
 
 ## System-level experiments
 

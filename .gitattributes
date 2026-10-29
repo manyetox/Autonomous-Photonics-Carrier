@@ -1,0 +1,3 @@
+# Preserve imported hardware and firmware source bytes for provenance checksums.
+hardware/platform-v3/** -text
+firmware/platform-v2/agent-v2.4/PhotonicsCarrierAgent/* -text
